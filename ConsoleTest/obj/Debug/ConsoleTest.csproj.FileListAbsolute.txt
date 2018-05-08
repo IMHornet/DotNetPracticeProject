@@ -1,0 +1,10 @@
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\bin\Debug\PracticeProject.dll
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\bin\Debug\PracticeProject.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.pdb
