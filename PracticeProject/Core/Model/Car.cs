@@ -32,7 +32,6 @@ namespace PracticeProject.Core.Model
             Milage = milage;
             YearOfProduction = year;
             isAvailable = available;
-
         }
 
         public  string ToFileFormat()
