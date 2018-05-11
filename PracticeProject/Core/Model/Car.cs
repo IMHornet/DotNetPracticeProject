@@ -36,7 +36,7 @@ namespace PracticeProject.Core.Model
 
         public  string ToFileFormat()
         {
-            return string.Format(Resource.CarFileFormat,Constants.Constants.delimetr,Id,
+            return string.Format(Resource.CarFileFormat, Constants.Constants.delimetr, Id,
                                  Model, Type, Engine, Name, Power, MaxSpeed, Milage,YearOfProduction.ToShortDateString(),isAvailable);
         }
 

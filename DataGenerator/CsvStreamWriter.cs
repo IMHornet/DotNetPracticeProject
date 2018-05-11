@@ -18,10 +18,17 @@ namespace DataGenerator
 
         public override void Write(string row)
         {
-            base.WriteLine(row);
+            try
+            {
+                base.WriteLine(row);
+            }
+            catch (IOException ex)
+            {
+                throw ex;
+            }
         }
 
-        public void write(params string[] values)
+        public void Write(params string[] values)
         {
 
         }

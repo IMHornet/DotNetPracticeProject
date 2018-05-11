@@ -49,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataGenerator\DataGenerator.csproj">
+      <Project>{1098a4e6-0c25-4765-8b0a-01ad965531b4}</Project>
+      <Name>DataGenerator</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PracticeProject\PracticeProject.csproj">
       <Project>{15d7c77e-8df6-4473-bd66-ce7952532d31}</Project>
       <Name>PracticeProject</Name>
