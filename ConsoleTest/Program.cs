@@ -4,6 +4,8 @@ using DataGenerator;
 using System;
 using System.Collections.Specialized;
 using System.Collections.Generic;
+using System.IO;
+using PracticeProject.Core.Constants;
 
 namespace ConsoleTest
 {
@@ -12,16 +14,22 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            List<Car> cars;
-            Generator generator = new Generator();
-            cars = generator.GetData(10);
-            CsvStreamWriter writer = new CsvStreamWriter(@"D:\MyProgrammingRepository\C#REPOSITORY\test.csv", ";");
 
-            foreach (Car car in cars) {
-                writer.WriteLine(car.ToFileFormat());
-                writer.Flush();
-            }
-            Console.ReadKey();
+            //Generator generator = new Generator();
+            //CarManager carManager = new CarManager();
+            //List<Car> cars = generator.GetData(500);
+            //using (CsvStreamWriter writer = new CsvStreamWriter(carManager.GetPath()))
+            //{
+            //    foreach(Car car in cars)
+            //    writer.WriteLine(car);
+            //}
+            //carManager.GetCarsFromFile();
+            //foreach (Car car in carManager.GetCarCollection())
+            //{
+            //    Console.WriteLine(car.ConsoleView());
+            //}
+
+                Console.ReadKey();
         }
     }
 }

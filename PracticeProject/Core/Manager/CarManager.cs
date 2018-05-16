@@ -13,7 +13,7 @@ namespace PracticeProject.Core.Manager
         private List<Car> Cars;
         private StreamReader sr;
         private StreamWriter sw;
-        string  Path = ConfigurationManager.AppSettings["Path"];
+        private string  Path = ConfigurationManager.AppSettings["Path"];
 
         public CarManager() {
             Cars = new List<Car>();
@@ -26,7 +26,7 @@ namespace PracticeProject.Core.Manager
         public void AddCar(Car car) {
             try {
                 using (sw = new StreamWriter(Path, true)) {
-                    sw.WriteLine(car.ToFileFormat());
+                    sw.WriteLine(car);
                 }
             } catch (IOException ex) {
                 throw ex;
@@ -34,6 +34,7 @@ namespace PracticeProject.Core.Manager
         }
 
         public List<Car> GetCarsFromFile() {
+           
             string line = string.Empty;
             Car car = null;
             Cars.Clear();
@@ -84,7 +85,6 @@ namespace PracticeProject.Core.Manager
 
         public Car FindCarByID(string id)
         {
-            Guid iD = Guid.Parse(id);
             string line = string.Empty;
             Car car = null;
             try
@@ -93,10 +93,10 @@ namespace PracticeProject.Core.Manager
                 {
                     while ((line = sr.ReadLine()) != null)
                     {
-                        car = CarParseFromLine(line);
-                        if (car.Id == iD)
+                        if (line.Contains(id))
                         {
-                            return car;
+                            car = CarParseFromLine(line);
+                            break;
                         }
                     }
                 }
@@ -104,7 +104,61 @@ namespace PracticeProject.Core.Manager
                 {
                     throw ex;
                 }
-            return null;
+            return car;
+        }
+
+        public List<Car> FindCarByModel(string model)
+        {
+            string line = string.Empty;
+            Car car = null;
+            try
+            {
+                using (sr = new StreamReader(Path))
+                {
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        if (line.Contains(model))
+                        {
+                            car = CarParseFromLine(line);
+                            Cars.Add(car);
+                            
+                        }
+                    }
+                }
+            }
+            catch (IOException ex)
+            {
+                throw ex;
+            }
+            return Cars;
+        }
+
+        // search with object SearchFilter -> engine , year range  from to 
+        public List<Car> FindCarByParams(string model, string year) {
+
+            string line = string.Empty;
+            Car car = null;
+            Cars.Clear();
+            try
+            {
+                using (sr = new StreamReader(Path))
+                {
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        if (line.Contains(model) && line.Contains(year))
+                        {
+                            car = CarParseFromLine(line);
+                            Cars.Add(car);
+                        }
+                    }
+                }
+            }
+            catch (IOException ex)
+            {
+                throw ex;
+            }
+            return Cars;
+
         }
 
         public bool UpdateCarInFile(Car car)
@@ -117,11 +171,11 @@ namespace PracticeProject.Core.Manager
                     {
                         if (eCar.Id != car.Id)
                         {
-                            sw.WriteLine(eCar.ToFileFormat());
+                            sw.WriteLine(eCar);
                         }
                           else
                           {
-                            sw.WriteLine(car.ToFileFormat());
+                            sw.WriteLine(car);
                           }
                     }
                 }
@@ -143,7 +197,7 @@ namespace PracticeProject.Core.Manager
                     {
                         if (rCar.Id != car.Id)
                         {
-                            sw.WriteLine(rCar.ToFileFormat());
+                            sw.WriteLine(rCar);
                         }
                     }
                 }
@@ -152,6 +206,11 @@ namespace PracticeProject.Core.Manager
               {
                 throw ex;
               }
+        }
+
+        public string GetPath()
+        {
+            return Path;
         }
     }
 }

@@ -34,16 +34,16 @@ namespace PracticeProject.Core.Model
             isAvailable = available;
         }
 
-        public  string ToFileFormat()
-        {
-            return string.Format(Resource.CarFileFormat, Constants.Constants.delimetr, Id,
-                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage,YearOfProduction.ToShortDateString(),isAvailable);
-        }
-
         public override string ToString()
         {
-            return string.Format(Resource.ToStringFormat, Constants.Constants.newline,
-                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage, YearOfProduction.ToShortDateString(), isAvailable);
+            return string.Format(Resource.ToStringFormat, Constants.Constants.delimetr, Id,
+                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
+        }
+
+        public  string ConsoleView()
+        {
+            return string.Format(Resource.ConsoleFormat," ",
+                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
         }
 
         public double Drive(double timeInHour, int speed)

@@ -10,6 +10,7 @@ namespace PracticeProject.Core.Interfaces
         List<Car> GetCarsFromFile();
         Car CarParseFromLine(string line);
         Car FindCarByID(string id);
+        List<Car> FindCarByModel(string model);
         bool UpdateCarInFile(Car car);
         bool DeleteCarFromFile(Car car);
     }

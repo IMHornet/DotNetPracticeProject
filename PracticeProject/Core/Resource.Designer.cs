@@ -61,11 +61,11 @@ namespace PracticeProject.Core {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}{0}{9}{0}{10}.
+        ///   Looks up a localized string similar to {1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}{0}{9}{0}.
         /// </summary>
-        internal static string CarFileFormat {
+        internal static string ConsoleFormat {
             get {
-                return ResourceManager.GetString("CarFileFormat", resourceCulture);
+                return ResourceManager.GetString("ConsoleFormat", resourceCulture);
             }
         }
         
@@ -88,7 +88,7 @@ namespace PracticeProject.Core {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Model: {1}{0}Type: {2}{0}Engine: {3}{0}Name: {4}{0}Power: {5}h/p{0}MaxSpeed:{6}km/h{0}Milage:{7}km{0}Year Of Production: {8}{0}Available: {9}{0}.
+        ///   Looks up a localized string similar to {1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}{0}{9}{0}{10}.
         /// </summary>
         internal static string ToStringFormat {
             get {

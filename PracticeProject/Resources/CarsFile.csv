@@ -1,8 +1,500 @@
-17bafa23-804f-4009-8041-5ad64e81b6ce;Mercedes;OffRoad;Benzine;ML63AMG;300;250;20400;12.02.2017;True
-1a4b9a7e-83e1-416d-b352-af40b8931b7b;Honda;Coupe;Hybrid;CRX;250;220;20500;23.05.2015;False
-0e579108-a35e-4686-bc7d-eb033a8a8bc4;Opel;Coupe;Benzine;Astra;200;220;33300;05.05.2001;True
-73dab7a0-7f8b-432b-b494-cb365ed92953;Mercedes;Sedan;Hybrid;S Class;250;220;12000;20.02.2017;True
-abfd65ef-a4d3-4cb8-8d08-4ac8fbf4456a;BMW;OffRoad;Diesel;X5;250;220;10000;25.05.2018;True
-37929bad-acb7-40a0-9db9-ce1650da5405;Honda;Coupe;Hybrid;Civic;300;250;30100;15.03.2016;True
-efa3d7d2-f4f4-4e97-9c02-357dc7ff49fc;Opel;Hatchback;Benzine;Vectra C;140;200;60000;20.10.2008;True
-04aeb082-391b-4b87-bcc0-37342dfab23e;KIA;Hatchback;Benzine;RIO;112;180;22000;25.03.2010;True
+49915ec6-ce16-4188-a4dc-c68bdae11da2;Toyota;OffRoad;Hybrid;Camry;100;190;15000;17.06.2019;False
+9e754a00-2085-45ab-933c-458b6410f2e0;Honda;Coupe;Benzine;Prelude;140;200;15000;02.05.2017;False
+c5d6d712-c171-4fac-acc9-c22a977e0f99;Opel;Coupe;Hybrid;Insignia;100;200;100;12.04.2017;True
+374e06b2-83ae-4d1e-b640-a3724dac0f8e;Honda;Coupe;Benzine;Prelude;200;200;15000;07.03.2020;True
+ece3b796-135d-4550-9f95-12f56b52ef95;Opel;Sedan;Electrolytic;Insignia;110;190;15000;26.11.2020;False
+c3da6835-abfa-4fb2-9f02-ab0c97db7348;KIA;Hatchback;Electrolytic;Ceed;100;180;10000;17.07.2018;True
+80a6e203-55db-480e-bd91-ac4f03539ded;Honda;OffRoad;Electrolytic;Accord;110;200;10000;28.02.2017;True
+e3cf4d8e-b69b-481b-89ad-ab87edcb0cdc;Honda;Coupe;Benzine;Civic;170;190;30000;13.09.2018;False
+8a33ae19-0b9f-4714-8e13-7a05037dab53;Toyota;Sedan;Benzine;Supra;130;190;100;20.12.2017;True
+e278c409-016f-4035-8cd9-45e840effaa7;Toyota;Coupe;Hybrid;Camry;150;190;30000;28.01.2015;False
+dde7140d-068c-437a-91d4-aa23b2f4990d;Toyota;OffRoad;Benzine;Avensis;200;200;15000;11.09.2015;True
+89355c08-0863-4ea4-8099-6e3ca5da5b3f;Opel;Hatchback;Hybrid;Vectra C;200;180;15000;06.03.2015;False
+dc73c427-4de3-4340-8bc3-01344255e4b6;Mercedes;Coupe;Electrolytic;ML 350;190;210;100;11.04.2017;False
+9c37625b-0996-4ff7-90ff-d7021d37a26f;KIA;Sedan;Electrolytic;Sorento;100;190;15000;17.12.2015;False
+3726aaa2-266e-4651-a445-513e4e993e27;Mercedes;Coupe;Hybrid;GLE;180;190;15000;28.04.2015;True
+d39208c8-50b2-4f10-abb1-ef9ad1daa5cf;Toyota;Hatchback;Hybrid;Avensis;140;200;15000;27.06.2019;False
+5da6bd8d-f138-4ba1-8fe1-865ad5ca8824;BMW;Sedan;Hybrid;X5;140;180;30000;03.02.2017;True
+544cfc24-03c8-4a76-b74b-4b9ba2236ac5;Mercedes;Coupe;Benzine;ML 350;100;170;10000;12.03.2019;True
+e64aaa71-f910-4dd3-9335-33be0a808aab;Honda;Hatchback;Electrolytic;Prelude;110;170;30000;12.08.2016;True
+cea97fd5-8123-4e39-9b18-52e28c7d408e;Mercedes;Hatchback;Hybrid;ML 350;190;210;100;02.07.2020;True
+9e7f9130-5b45-4589-a2e6-514220dfa1b0;BMW;OffRoad;Hybrid;X5;120;200;15000;14.09.2017;False
+67dfbb42-8e7b-4acb-a9e9-65c357a41c07;BMW;OffRoad;Hybrid;X6;100;170;30000;02.10.2019;False
+2f996a76-f780-4690-a479-603fc534f4c3;Opel;Coupe;Benzine;Astra G;110;180;10000;03.02.2016;False
+ef250c10-89e5-4cb8-b8c3-8982a7fc0c5a;Mercedes;OffRoad;Hybrid;ML 350;140;210;10000;13.08.2015;False
+288cb6ca-4a9f-486b-ab51-94d44e1d300a;BMW;Coupe;Electrolytic;X5;200;210;100;31.07.2017;True
+38dbf8a1-fcca-4b42-b601-ee1eb8e460a4;KIA;Coupe;Benzine;Sportage;110;200;100;06.06.2020;False
+c840e8d0-b6c3-4254-93d6-b3269e1db675;Toyota;Coupe;Benzine;Supra;120;200;30000;22.05.2020;True
+bf6e2c69-cf65-43ef-baf6-571d941a5aed;Mercedes;Sedan;Hybrid;S Class;180;180;10000;23.05.2015;True
+5d7415e0-21ef-42c7-96cf-9a52f5c7e606;KIA;OffRoad;Electrolytic;Ceed;100;210;15000;09.01.2016;True
+d49f4af3-efe6-4ac1-af87-10fab0d6ffdf;Honda;Coupe;Hybrid;Prelude;170;200;15000;23.02.2018;False
+1fd289f1-a2b3-432f-9a99-4ce1a4b41d33;Honda;Coupe;Electrolytic;Civic;140;210;30000;14.06.2016;False
+8389a88d-9a17-4d03-ae35-e7677550cceb;Mercedes;Coupe;Electrolytic;S Class;170;200;10000;13.11.2016;False
+f5e50b48-3367-4bdc-8734-de5b732d2743;Toyota;Coupe;Electrolytic;Supra;190;200;100;02.04.2020;False
+2d8b88fc-e5f2-406c-893b-68f89eb44f75;Mercedes;Coupe;Benzine;S Class;170;180;15000;29.12.2015;False
+14b08305-469f-463b-8d88-4cba12b3cb21;KIA;Hatchback;Electrolytic;Ceed;100;170;30000;19.11.2020;False
+31c022d7-bfc8-43b8-a6bb-e8b1ff14e201;Toyota;Coupe;Benzine;Camry;100;170;100;22.06.2019;True
+2ca0bf28-c540-443e-b917-e795ae4b7ed5;BMW;Hatchback;Benzine;X5;140;210;15000;02.04.2020;True
+e758db7d-990e-4d09-9de0-5e915f977954;Mercedes;Coupe;Benzine;S Class;120;200;100;05.07.2020;False
+b3ee6fd6-3fa7-4695-9fa6-49e56a51bc0b;Honda;OffRoad;Hybrid;Prelude;170;180;15000;27.09.2016;True
+5e70ec9f-f61e-4486-9a49-0277967e051b;Toyota;Hatchback;Electrolytic;Camry;190;190;30000;23.03.2019;False
+11daf736-2f3e-4034-bc80-513bbd3fbe05;BMW;Coupe;Electrolytic;X5;190;200;15000;19.03.2017;False
+8ae36755-5dc6-48ed-aa42-9f8047b72dcb;BMW;Sedan;Electrolytic;X1;150;180;100;25.11.2019;False
+f82b976f-80e5-461d-9c2a-62f1320026d1;Opel;OffRoad;Benzine;Astra G;190;200;30000;15.04.2020;False
+51d9b546-e74e-44fe-b215-3c1ada0df109;Honda;Coupe;Electrolytic;Accord;100;190;30000;06.01.2020;False
+49e9e395-88d4-44c7-a57d-5b6bd3a0920a;KIA;Coupe;Electrolytic;Sportage;130;170;15000;16.07.2016;False
+08e10fff-9a6c-454a-bc8e-fd91cc76d3bd;KIA;OffRoad;Hybrid;Sportage;190;210;30000;23.07.2015;False
+6e2a64a3-94f2-4826-9bdb-3973ed66deff;BMW;Hatchback;Benzine;X5;100;170;30000;20.06.2015;False
+1676d14b-2a21-4cc6-ace1-2ac947fe592f;Honda;Coupe;Electrolytic;Prelude;120;190;30000;14.10.2020;True
+e6142b17-51ca-4ad6-8ff5-dd7612fc1fcf;Opel;Hatchback;Hybrid;Insignia;120;200;30000;04.11.2016;False
+5805ff28-c6aa-42cf-a25b-0aaded131d9f;Opel;Coupe;Electrolytic;Insignia;120;170;100;01.03.2017;False
+d314a1d2-9e08-4d96-aa9f-85c451b96441;Opel;OffRoad;Electrolytic;Insignia;120;200;100;08.12.2016;True
+94bf8a04-5487-4a36-95af-5446181abd0c;Opel;OffRoad;Hybrid;Vectra C;120;210;10000;22.10.2015;False
+ce122c47-57a0-41a7-9f80-390203ac9539;KIA;Hatchback;Benzine;Ceed;170;180;15000;12.12.2018;False
+e6ce682c-116f-4684-8250-90532e98b4ca;Mercedes;Sedan;Benzine;GLE;180;190;10000;01.10.2017;True
+fe4f6a94-377d-498f-9ea4-32f21ca272b9;Opel;Hatchback;Hybrid;Vectra C;130;210;15000;20.02.2019;False
+69089d3b-624c-4a7b-ac32-206b2110e45f;Mercedes;Sedan;Benzine;S Class;200;170;10000;02.09.2020;True
+2ec4179b-5481-433c-b781-5e5061a1abd1;Mercedes;Coupe;Benzine;S Class;200;170;30000;28.08.2016;False
+320250f7-f251-49b1-a865-402d0c9013bf;Honda;Coupe;Benzine;Prelude;190;210;30000;29.10.2015;True
+b79fc2b1-ecce-4445-9d9e-92ba24a9a248;Toyota;Sedan;Benzine;Supra;150;190;10000;17.10.2016;True
+45162c48-fe44-4854-ad51-57375e129353;Toyota;Sedan;Electrolytic;Supra;130;210;100;09.12.2016;False
+07db99c5-deba-4079-9656-825bb31cbd5c;Honda;Sedan;Hybrid;Prelude;190;170;100;24.04.2019;True
+4ab76f8a-7cbf-4c4d-9a7a-f8655189d97a;Opel;Sedan;Benzine;Astra G;160;200;100;23.07.2019;False
+303a484b-1525-45f9-9e4c-6304ce815b02;Honda;Hatchback;Benzine;Civic;120;200;30000;16.01.2018;False
+c37fe904-e091-42fd-a815-7b690eea454a;Opel;Hatchback;Electrolytic;Astra G;160;190;30000;15.09.2019;False
+9b5cba92-a575-4ac4-81c9-f1ae1c02890f;Mercedes;Hatchback;Electrolytic;S Class;120;180;15000;30.05.2015;True
+50b6969b-73af-411c-90ff-ec5dbe019db1;Opel;Coupe;Hybrid;Vectra C;170;210;15000;18.03.2018;False
+3c0bd1ef-28fb-44da-a1f3-acc22a1b20f2;Opel;Hatchback;Hybrid;Astra G;110;170;30000;21.05.2019;False
+baa47289-07d4-4e8b-9a22-90ab631fec27;KIA;Hatchback;Benzine;Sportage;160;190;15000;13.08.2020;True
+213e7e26-4837-4b23-9437-e04cb4f63373;Toyota;OffRoad;Benzine;Camry;180;210;10000;02.01.2015;True
+8f86fd3c-ee60-45bf-bc55-90e77ef21d84;Toyota;Coupe;Electrolytic;Avensis;140;170;15000;09.05.2016;False
+1488eca7-17c8-474b-9bf9-82283eea251f;Honda;Coupe;Hybrid;Accord;170;180;10000;02.07.2020;False
+46c7dad1-3cae-4c64-b558-e87f7fc20d3f;KIA;Hatchback;Benzine;Ceed;200;180;30000;30.03.2020;True
+1e232477-bbb9-4d40-a6bc-12971b2133ba;KIA;Sedan;Electrolytic;Ceed;110;210;100;22.11.2020;False
+fa93d038-58ae-4fae-87ec-a1c260e7a69f;Mercedes;Sedan;Hybrid;S Class;200;170;15000;31.03.2020;False
+53a214b7-729d-433d-9252-05759b5199e2;Toyota;OffRoad;Benzine;Camry;140;180;100;15.06.2018;False
+998c60c4-42b0-441d-b175-b79680b9ad79;Opel;Coupe;Benzine;Insignia;110;170;100;21.12.2016;True
+9bfffdca-da57-428d-a2e0-56a03b1f2e61;BMW;Coupe;Benzine;X6;110;180;15000;24.07.2020;False
+8028b778-b132-4bde-8513-8d4d20416821;Opel;Hatchback;Benzine;Vectra C;190;190;10000;02.07.2015;True
+95c87d21-dfef-44db-9c40-771e1d6ac974;Honda;Coupe;Electrolytic;Civic;200;170;15000;28.07.2016;False
+d6be1eee-63fe-4250-9df2-8137fbf7dd45;Mercedes;OffRoad;Benzine;S Class;100;170;10000;14.12.2018;False
+ef46cb29-e619-44c1-9db4-53c08b39ae00;BMW;Coupe;Hybrid;X6;110;180;15000;02.02.2020;True
+53bf8152-ec26-4969-be4a-1a5ecd8595a7;Mercedes;Hatchback;Hybrid;ML 350;170;180;15000;07.10.2015;True
+f131db1b-edf5-4537-8926-549d970ff1f5;BMW;OffRoad;Electrolytic;X5;190;190;10000;02.04.2015;False
+ca321cf5-9f65-442b-b7a0-33f6612b1575;Honda;OffRoad;Benzine;Civic;120;210;10000;30.06.2019;False
+7e4af238-2c30-4325-87b9-acce8e54bb73;Opel;Coupe;Hybrid;Vectra C;120;180;30000;03.03.2019;True
+197b6caa-f5ee-46c7-a9a6-bea46814f48b;Mercedes;Coupe;Benzine;ML 350;170;190;10000;07.09.2018;True
+c20594f7-15a6-48cd-8813-52c97a3c9271;BMW;Coupe;Benzine;X5;160;170;15000;14.09.2016;False
+dbeb8cd0-18bd-4563-a7c0-11d7e2ef7d8d;Honda;Sedan;Hybrid;Civic;190;180;30000;03.06.2018;True
+e63c07f3-4a26-4b90-9faf-816406c45e4a;Mercedes;Hatchback;Hybrid;S Class;200;180;15000;12.11.2015;False
+e3beb6cd-39f6-496e-a475-a0701bb24060;KIA;Hatchback;Hybrid;Ceed;100;200;30000;02.07.2019;False
+a1e05bb8-5cdd-4280-ac49-39a3edf120f2;Mercedes;OffRoad;Electrolytic;S Class;180;200;30000;05.12.2015;True
+b6d2a2f6-e483-4bc4-8278-98dde3fc0f54;BMW;Hatchback;Benzine;X6;180;170;100;22.10.2016;True
+98811991-579a-437d-9562-9c715a3dfb91;KIA;Hatchback;Hybrid;Sorento;110;170;10000;24.06.2018;True
+df1d2ca1-ee47-4cc7-8ffa-d6d25696e7d8;Toyota;Sedan;Benzine;Supra;160;190;10000;27.04.2017;False
+3dd3533f-4dea-4548-8d7c-c7df07871ef8;Honda;Sedan;Electrolytic;Accord;190;210;15000;19.02.2016;True
+1f06b50a-1867-4982-8964-f7ff285170cd;Opel;Hatchback;Benzine;Astra G;110;190;30000;21.08.2017;True
+5379fbac-633f-4158-9073-c7e4c4a63d7d;Opel;Sedan;Electrolytic;Vectra C;160;190;10000;27.07.2020;True
+a5dc3ee5-b3f2-4aa0-931b-6ccf7f4ecdbc;Mercedes;Sedan;Hybrid;S Class;160;180;10000;07.03.2015;False
+b8e888c8-1ff1-4961-bbba-94d7c3360150;Toyota;Coupe;Benzine;Supra;130;180;15000;21.10.2018;False
+bd98d85c-96aa-4865-9e5f-de9a2c8f2ab2;BMW;Sedan;Hybrid;X6;150;180;10000;07.12.2019;True
+95740a01-7907-4e09-a9b5-1eed22a6a2d7;KIA;Hatchback;Electrolytic;Sportage;130;210;100;14.08.2018;True
+7fcef33f-09a8-4666-9293-0b0f05f400b2;Honda;Hatchback;Hybrid;Prelude;160;180;15000;31.12.2018;False
+1f72b3ef-2561-4291-907a-1991cc011181;Mercedes;Hatchback;Hybrid;GLE;180;210;15000;17.01.2015;True
+c0c6d672-3af8-4521-a8fe-555c868da014;Toyota;Sedan;Hybrid;Avensis;200;210;15000;29.04.2016;False
+3f2163e9-fea1-46f0-869a-f64d680b7cc8;Mercedes;Coupe;Hybrid;ML 350;160;210;30000;19.07.2016;True
+2ebd3542-2ba2-497b-a777-73c994df5196;BMW;Hatchback;Benzine;X5;150;170;15000;27.04.2017;True
+2a81b4aa-04a4-4067-8b3b-c742e584e338;Opel;Sedan;Benzine;Vectra C;160;180;15000;11.11.2017;False
+444b1841-e1cc-4d16-972e-139ac46ae680;Toyota;Sedan;Electrolytic;Supra;110;180;30000;18.03.2018;False
+7de1c96a-02b1-4f45-a138-da569021fc21;BMW;Coupe;Hybrid;X6;170;190;15000;01.08.2017;False
+225f4ced-16d5-4982-8bf3-64ecc79a0d3a;Toyota;Sedan;Hybrid;Camry;140;180;15000;07.03.2016;False
+81b981a6-cc8c-4b78-b8c2-d835cbdeb4bb;Toyota;OffRoad;Electrolytic;Camry;100;210;100;22.06.2015;False
+e294d356-c639-4882-9519-99e442167657;BMW;Coupe;Hybrid;X6;170;190;100;27.04.2018;True
+9ec06133-7885-49d7-8a67-0d5a8fef3ac2;KIA;OffRoad;Electrolytic;Sportage;130;210;15000;09.10.2017;True
+7fb2bda3-e5e6-489a-9ed3-ee589221e2d5;KIA;Coupe;Electrolytic;Sportage;130;190;15000;21.07.2020;False
+81353233-029e-4ea6-abd9-e049e2750283;Mercedes;Coupe;Benzine;S Class;170;190;10000;29.12.2017;True
+98a4c129-c609-4fd1-8ada-9ac9db8d8011;Honda;Hatchback;Hybrid;Prelude;140;200;100;02.01.2018;False
+ae169422-505e-41c8-b5fd-cc3da4312f95;BMW;OffRoad;Electrolytic;X5;130;180;30000;17.01.2016;True
+a973574b-dc7f-4bd8-8b40-a3b14c1680f1;BMW;Hatchback;Electrolytic;X5;200;170;10000;06.10.2020;True
+5c466e48-621e-4224-a4d0-00dfc605db16;Honda;Sedan;Benzine;Prelude;150;170;10000;03.10.2016;True
+89340fd1-b343-4ff3-ab57-475e952bed93;Mercedes;Hatchback;Hybrid;GLE;130;170;30000;01.02.2019;True
+4f448e3b-89e0-47f7-b04a-ba9acc63e20f;Mercedes;Hatchback;Electrolytic;ML 350;100;200;100;06.05.2019;False
+e662fadd-d405-40ba-8240-d5c223386efe;BMW;Hatchback;Electrolytic;X6;100;200;30000;13.07.2016;True
+8c2f3003-8709-4441-92ec-38baf39257df;Mercedes;Coupe;Benzine;GLE;120;210;30000;26.08.2019;True
+3d1e3825-1d5e-4f0d-b6b8-d74d0c5e1288;Opel;Hatchback;Benzine;Astra G;200;210;100;26.08.2017;False
+3fb4b1f6-e242-4175-80f2-522042364732;BMW;Sedan;Electrolytic;X1;180;170;10000;04.02.2015;False
+0af8f9cd-8b2f-4fd6-814f-b5275654c44a;Opel;Coupe;Benzine;Astra G;180;190;100;24.01.2018;False
+aecd58dd-f928-4f5d-a9ca-89f22c5259a1;Mercedes;Sedan;Electrolytic;GLE;200;200;30000;31.08.2019;False
+06cc0773-b780-460c-b966-704cc07c8303;BMW;Coupe;Electrolytic;X1;170;170;30000;04.11.2015;True
+ef54008e-37f1-420e-983c-afe9f9a6e17a;Honda;OffRoad;Hybrid;Prelude;180;170;10000;28.07.2018;True
+c78b9a85-20be-4ed0-8f1d-0d88c4cb942a;Honda;Hatchback;Hybrid;Accord;130;170;100;27.09.2020;False
+03033133-2542-4c30-bc4b-b6665cac4876;Mercedes;Hatchback;Hybrid;S Class;140;200;100;25.02.2015;False
+9166de7f-a8c9-4baa-b512-79197239e25c;Opel;Hatchback;Hybrid;Astra G;110;170;15000;21.02.2020;False
+5b100921-c2d2-4799-8c49-2e30bc32b89f;Opel;Coupe;Benzine;Vectra C;190;200;15000;26.08.2017;False
+77c477d3-04b9-41fb-b147-69f16648be75;KIA;OffRoad;Electrolytic;Sorento;100;200;10000;25.08.2016;False
+5c806d21-326e-47e6-bc09-c08e1393e7c3;Honda;Hatchback;Electrolytic;Accord;150;170;10000;13.04.2015;False
+a9d7b17e-0c08-4edb-ba19-4d99134f05b7;Honda;Sedan;Benzine;Civic;100;210;15000;01.06.2017;True
+4c947c32-1f96-401f-a94c-46bb44d76087;Opel;Sedan;Benzine;Insignia;150;210;30000;03.08.2020;False
+9aa6033e-cd15-4367-af8b-0f03fb64c242;Mercedes;Coupe;Benzine;ML 350;140;180;15000;25.11.2020;False
+b7217928-9391-4b9b-92ca-0c3dff2c19c3;KIA;Hatchback;Hybrid;Sportage;190;200;100;25.04.2015;True
+7afdc4b9-eb06-4be0-9231-692b2b43d666;BMW;Coupe;Electrolytic;X6;120;190;100;23.09.2015;False
+bcf51125-3f14-459f-812f-b1ed5baa390e;Opel;Sedan;Hybrid;Vectra C;200;190;100;22.01.2016;False
+ff280158-5200-41fa-bb9e-1c1de617f200;Mercedes;Sedan;Benzine;GLE;170;170;100;05.06.2020;True
+d3b75a21-aaaf-473d-a9fb-c1f0b1af1f5b;KIA;Coupe;Hybrid;Sorento;180;210;10000;24.04.2016;True
+5954fa4a-8d5d-48be-9d28-e35ff816aca1;KIA;Sedan;Benzine;Sportage;100;200;30000;05.01.2017;False
+f6ebab59-8f8b-4985-a63a-d43065fbf3fe;KIA;Coupe;Hybrid;Sorento;120;210;10000;18.11.2020;False
+a78c22dc-fbba-4de7-9408-983dd4dad829;KIA;OffRoad;Electrolytic;Sorento;110;200;100;24.07.2018;True
+c93a9b5c-5676-4b14-a9f8-f5a2022973e3;KIA;OffRoad;Benzine;Sportage;160;170;15000;19.12.2015;True
+ffc649d1-9e5f-4031-9480-cd0c4ed2cae8;KIA;Coupe;Electrolytic;Sorento;100;200;100;19.01.2015;True
+a4a292bc-5b2a-4011-af91-7455fb94e6d8;Mercedes;Coupe;Electrolytic;ML 350;160;190;10000;14.06.2017;False
+f7d2f80f-06a1-4862-a502-4df302eacb07;Honda;Hatchback;Benzine;Prelude;110;180;10000;21.08.2017;True
+70086ef1-9b12-4649-94d9-6abedaf1070c;Honda;OffRoad;Benzine;Prelude;170;200;15000;27.12.2018;False
+56f804b7-5957-4d1c-ba94-63809bcee30f;Honda;Hatchback;Hybrid;Civic;100;190;30000;20.12.2016;True
+d4dbae70-e85f-4f40-b026-c8edd38b694a;BMW;Sedan;Benzine;X5;190;200;10000;11.09.2015;True
+8a243416-9e0c-45b1-bd75-b6b5726df7f6;KIA;OffRoad;Hybrid;Sportage;150;210;100;14.03.2019;False
+cf2360a7-5cbd-4954-97a3-e3dda095a818;Toyota;Sedan;Benzine;Camry;140;170;15000;03.01.2015;True
+ad1c123d-083f-474a-8175-970e192596db;Mercedes;Coupe;Benzine;ML 350;150;210;30000;05.01.2016;False
+098d654e-4765-4d3e-9c98-b65c7fcaf7c4;Mercedes;Coupe;Hybrid;ML 350;100;210;10000;28.08.2019;False
+d96a745c-3cdb-4954-a6fd-8f2a776fd597;Honda;Sedan;Benzine;Accord;180;180;30000;09.04.2015;False
+86c476b1-6353-40d0-8d9b-fcb90219a209;Toyota;OffRoad;Electrolytic;Supra;120;180;100;01.12.2016;False
+cf2ab428-9136-45fd-8a5e-ea0671ebf335;Opel;Hatchback;Electrolytic;Astra G;150;170;15000;27.07.2020;True
+d31a79b5-c4a9-4c69-b181-e4de8aea1b0d;BMW;Coupe;Benzine;X5;110;170;15000;21.06.2020;False
+e95cda5d-689c-41dc-b2b3-3afa064b85ce;Honda;Hatchback;Electrolytic;Prelude;160;200;15000;23.01.2017;True
+9a6700f1-71be-4f6c-959c-eaac291298a9;Honda;Sedan;Benzine;Accord;120;200;30000;20.03.2019;True
+ab913316-9605-4e48-9afa-cb1bddef7c3f;Honda;OffRoad;Benzine;Prelude;200;170;100;18.05.2019;True
+1042601d-f6c8-4481-b6e6-538f7baf1d13;BMW;Sedan;Electrolytic;X5;110;190;30000;01.06.2019;True
+0c198397-71ba-4bed-a017-ca058a64fecb;KIA;OffRoad;Electrolytic;Ceed;200;210;30000;18.02.2018;False
+a570037b-9686-4517-992a-0b514d4be024;BMW;Coupe;Hybrid;X1;140;200;15000;21.11.2017;True
+c7b82bbb-32ee-4728-a3f7-3eec3f559062;Mercedes;Hatchback;Electrolytic;ML 350;170;200;100;10.10.2015;True
+1dc3b0d0-c9b6-4d90-887f-96728a551825;Opel;Hatchback;Electrolytic;Insignia;160;180;15000;15.11.2017;True
+0a90f43a-0fcd-4cc4-b3e6-dbf7d24489eb;Honda;Coupe;Benzine;Prelude;140;170;10000;05.10.2016;False
+3ee3ade6-5b55-4165-9c36-0513ca6e0192;KIA;OffRoad;Benzine;Sorento;150;170;100;26.01.2016;True
+c2174f2e-21d5-4c13-bd68-578594132413;Mercedes;Sedan;Electrolytic;ML 350;200;170;100;06.05.2018;True
+381a02e3-508e-48ea-b717-2517495328c2;KIA;Sedan;Benzine;Sportage;160;170;10000;02.06.2018;True
+25075b00-f66a-4f0a-98dd-26a046062cef;Mercedes;Sedan;Hybrid;S Class;150;200;100;15.02.2018;True
+edf76c5e-d3e1-4da3-a644-e0fbec3f39ad;Opel;OffRoad;Benzine;Astra G;190;180;30000;08.03.2020;False
+e4c51d1c-5c0e-41ea-b565-09c0a435797d;BMW;Sedan;Benzine;X6;140;190;10000;24.08.2017;True
+8423ed9b-e421-470a-8747-9ac0ab053f77;Opel;Coupe;Electrolytic;Astra G;200;200;15000;04.11.2015;True
+2503f2dd-4a28-4798-80e6-0150371d15f7;Toyota;Hatchback;Electrolytic;Avensis;140;180;30000;30.03.2015;True
+b4dda88f-acdf-44da-8862-b081b17bf9fb;Toyota;OffRoad;Hybrid;Supra;130;180;30000;05.10.2015;False
+8b89e1c7-668f-413a-8a58-addfc80944f9;Toyota;OffRoad;Hybrid;Supra;120;180;10000;28.11.2019;False
+60d00e7b-85b6-45a6-baee-33f134388a7c;BMW;Sedan;Benzine;X5;200;170;30000;12.11.2019;True
+0ab0a754-6b70-4b1b-82a2-18222de532a7;KIA;Coupe;Benzine;Ceed;100;180;100;30.01.2016;True
+45b92405-b90d-4330-a25e-42a44c635487;Toyota;Coupe;Hybrid;Camry;160;170;15000;26.10.2016;True
+e2d09cd8-1585-49a7-b95e-a4cde7ea9a0e;KIA;OffRoad;Hybrid;Sorento;120;180;15000;23.12.2018;True
+7c57b54c-1b95-407d-9edc-9279b0f167a4;BMW;Coupe;Electrolytic;X6;110;170;30000;02.07.2016;True
+99189829-9cee-427f-bbc6-9c35fbca9c85;Mercedes;OffRoad;Hybrid;ML 350;110;200;15000;20.01.2020;False
+5e13f3ea-d0df-454a-b41e-98780c9f890c;KIA;OffRoad;Electrolytic;Sportage;100;170;10000;24.03.2018;False
+a16a4d73-d6fd-4943-adae-a3691cef0903;Honda;Hatchback;Electrolytic;Civic;200;210;15000;03.08.2017;True
+5cc71c6f-5a4f-4f2a-aecd-b055095defe5;BMW;Sedan;Electrolytic;X1;140;170;10000;30.09.2017;False
+f49a76d7-07fc-4c33-8c7e-8981128d508d;KIA;Sedan;Hybrid;Sportage;180;170;15000;07.05.2020;True
+f0a712da-c554-47b6-aaba-dbe172a00fe8;Toyota;Hatchback;Hybrid;Avensis;180;200;30000;14.09.2018;True
+03e9a20e-a96c-4f4d-97f3-a51db701496c;Honda;Hatchback;Electrolytic;Prelude;170;210;30000;21.03.2019;True
+b2c885b0-c1c1-4c66-b4d1-4ab7d782e4bf;Opel;Hatchback;Electrolytic;Astra G;100;170;100;09.09.2019;False
+d57ca460-5768-4656-8c32-b5bf8eb63442;Opel;Hatchback;Benzine;Insignia;150;190;100;23.05.2018;False
+d4bc6b3d-84fc-4c85-b9f6-8edc79f1fb45;Toyota;Hatchback;Hybrid;Supra;120;180;30000;11.09.2015;True
+5e5ea409-811d-4974-b1d4-0921696108a2;Mercedes;Coupe;Hybrid;ML 350;120;200;15000;30.05.2020;False
+4b26c784-4133-427a-97ea-f59a019eda5b;Opel;OffRoad;Benzine;Vectra C;160;180;15000;05.11.2017;True
+9ea1809b-72b5-414f-9c9c-0dbb26cb9a66;Mercedes;Sedan;Electrolytic;GLE;120;210;10000;29.11.2019;False
+95181ab0-e21c-4f07-b2fb-5753354f8943;Toyota;Coupe;Hybrid;Supra;180;170;30000;07.06.2019;True
+4191d123-2947-4bdf-b9d3-dc8e48195d38;Opel;OffRoad;Benzine;Insignia;200;210;15000;25.03.2019;False
+fb1b4990-dfaf-41d8-bfb2-506253ced9ee;Mercedes;OffRoad;Hybrid;S Class;190;190;15000;14.05.2019;False
+ffe42bc9-0bd8-4fae-8437-e86db48bb9fa;Mercedes;Sedan;Hybrid;ML 350;190;190;100;03.02.2017;True
+22afb92c-bd06-494a-93d0-fdbeff9264ae;Opel;Coupe;Hybrid;Insignia;200;210;10000;01.09.2018;True
+b7ab5131-d717-4f7f-9ba7-a27720b68ece;Opel;OffRoad;Benzine;Insignia;100;180;100;06.05.2016;True
+4202b09e-a991-4689-bb3f-158bebd82265;Honda;Coupe;Electrolytic;Prelude;100;210;10000;10.11.2016;True
+e139ead5-068c-4142-b2d9-effab3ca3755;Opel;Sedan;Electrolytic;Astra G;110;190;15000;07.07.2015;True
+b8d318c8-a82c-4420-ba7b-8fe1cb31fa02;Opel;OffRoad;Benzine;Astra G;180;190;10000;22.09.2017;False
+feaf2ba5-b1b1-4501-9e57-e5715ebcbb6e;Honda;Sedan;Benzine;Accord;150;210;100;29.03.2017;True
+a974d6bf-4d4f-4058-adff-d7d92415ec3e;Toyota;OffRoad;Benzine;Supra;170;180;30000;09.02.2016;False
+0be677fc-7853-499e-863e-6794f7913ac2;Mercedes;Sedan;Hybrid;GLE;170;170;15000;04.01.2019;True
+7b288282-9177-47d0-9490-5707bb97cfe3;Mercedes;OffRoad;Electrolytic;GLE;190;210;30000;14.08.2018;True
+4468f3be-5a0d-4d9d-b7b0-1c69750c0739;KIA;Coupe;Hybrid;Ceed;170;200;30000;07.06.2020;False
+f1df71aa-c748-426c-9796-c8664a2ab915;KIA;Coupe;Electrolytic;Sorento;170;180;10000;04.07.2017;False
+3e9c43d5-a8cb-4be6-9e2b-cba51b017136;BMW;Sedan;Electrolytic;X6;120;180;30000;05.09.2020;False
+98acc242-c804-404c-ac98-ec34228e5387;Opel;Sedan;Electrolytic;Insignia;190;190;30000;08.08.2017;False
+d56c3f1d-0801-4b95-8095-f59cc835e6d0;Mercedes;Hatchback;Benzine;S Class;140;180;15000;16.10.2019;False
+6cf1eba5-3b68-4bc4-91df-1583bcec1a7a;BMW;Coupe;Hybrid;X6;110;190;100;26.03.2016;True
+e510f4e2-3fba-402c-991a-e18271a74c7d;KIA;Sedan;Electrolytic;Sorento;120;180;15000;22.07.2020;False
+3968463f-3ebd-4ddc-9c1e-81a5cce12ba3;Toyota;Hatchback;Benzine;Supra;100;210;15000;06.09.2019;True
+7b06c596-f304-4d13-b709-4973aa28dad4;Opel;Sedan;Hybrid;Insignia;100;180;100;14.03.2019;True
+ca068006-4738-40b0-a872-336db1b06fb7;Mercedes;Coupe;Benzine;ML 350;200;170;10000;15.04.2019;True
+acf6f1ed-aecf-4ced-bdb9-c03043029a59;Honda;OffRoad;Hybrid;Civic;190;190;100;31.03.2020;True
+ebb2d5c9-3581-4ff0-9778-18cd44647281;BMW;Hatchback;Hybrid;X1;130;180;10000;14.09.2015;True
+2b6417b6-988b-456f-bc08-08e4ef92a57c;Toyota;Coupe;Benzine;Camry;180;170;15000;28.03.2019;True
+f01a61f9-7daf-406f-bc48-4d107e6ae28d;Toyota;Sedan;Benzine;Avensis;130;190;15000;11.07.2016;False
+78e105cc-f1d9-4c6d-b7af-09f4b6ac667c;Toyota;Hatchback;Benzine;Avensis;120;200;30000;08.06.2018;True
+1386f1fc-f57e-4fa0-84a2-5c5b5ed47ea0;Mercedes;Sedan;Benzine;ML 350;190;200;100;22.03.2017;False
+aa23420d-412e-4b1f-b42f-729c92681e69;Mercedes;Sedan;Hybrid;S Class;110;170;15000;25.11.2016;False
+ee47a578-21af-4604-bfec-a2017c13a3c7;Opel;Sedan;Hybrid;Insignia;170;200;30000;12.08.2020;True
+7e6e0217-c8c1-471e-b181-5f6216bc0384;BMW;OffRoad;Benzine;X5;200;200;30000;16.09.2018;True
+ae4c01bc-9f89-47c9-9585-2e357f56a140;KIA;Sedan;Benzine;Sportage;150;200;30000;19.06.2016;False
+59e23a17-abea-4de6-ae2a-82439e2020aa;BMW;Hatchback;Electrolytic;X1;100;170;15000;30.07.2015;True
+6d8365c2-7d67-4b1b-993f-04156b90adf8;Toyota;Coupe;Benzine;Supra;190;170;30000;18.09.2020;False
+fbdbacc5-b15a-45d4-aa45-423c7456fccf;KIA;OffRoad;Benzine;Sportage;160;180;10000;21.11.2015;False
+59a4929c-0641-41c6-981a-7b8d1525a1cb;Toyota;Coupe;Benzine;Avensis;140;200;30000;21.09.2018;True
+6f0e440c-0283-45db-8445-44b97e4de3d7;Toyota;Sedan;Hybrid;Camry;120;200;15000;12.01.2016;False
+917b494e-803a-4994-9b8d-6469e1f6a67e;Honda;Sedan;Hybrid;Prelude;100;190;100;14.10.2020;True
+7c6270e1-20cc-45f4-90c9-8a05668e7a33;Opel;OffRoad;Hybrid;Vectra C;170;200;100;05.09.2015;False
+a1c49535-22b4-4958-8832-48627bfc5be8;BMW;Coupe;Benzine;X1;170;210;100;27.02.2015;True
+f71724ce-5064-46db-857c-40d904bc8298;Opel;Coupe;Benzine;Astra G;160;200;100;19.10.2015;True
+44c5c947-05f0-4f86-8cf8-3113fcea8b88;Toyota;Sedan;Benzine;Camry;150;170;30000;25.07.2019;True
+5c7ce10a-76fb-4620-b70f-3ec30a4ae879;Toyota;Sedan;Electrolytic;Camry;200;200;100;17.09.2015;False
+8711ee2f-e24b-48ed-9302-dd9d1cb897c7;Opel;OffRoad;Benzine;Vectra C;130;170;30000;25.09.2018;True
+f66e8a06-d39e-499d-8097-7d3ceb2ae139;BMW;OffRoad;Benzine;X5;150;190;10000;11.01.2018;True
+1140a90e-3a31-4c35-9e7a-79c853942679;KIA;Coupe;Electrolytic;Sportage;100;200;15000;12.10.2018;False
+1cdbe605-2122-46e5-864b-124fd01d712a;Opel;Hatchback;Electrolytic;Insignia;110;200;30000;21.04.2016;False
+d70edea3-7745-4abb-9b8f-ce3629406073;Mercedes;Coupe;Hybrid;S Class;160;180;30000;28.09.2016;False
+f0abb11d-182f-436d-8a82-6c2d1cc58121;KIA;Sedan;Hybrid;Sorento;200;170;10000;27.04.2020;False
+9c345440-d911-4957-a5ee-1bb03c1c54f7;Toyota;Coupe;Benzine;Avensis;200;180;100;03.12.2020;True
+7118102f-6f19-4fb9-b6f7-c2d477ab7862;BMW;Hatchback;Benzine;X6;120;170;100;26.12.2017;False
+cef9cfb6-7d96-4da0-91b0-eb0299c9fb79;BMW;Coupe;Hybrid;X5;110;210;30000;15.05.2015;True
+5619c668-b548-4a34-9539-869e13994de5;Honda;Coupe;Electrolytic;Accord;140;180;100;05.01.2016;True
+7a2e70b1-af72-48a3-ac3b-3cb2610ad9d0;Honda;Coupe;Hybrid;Accord;190;210;30000;28.02.2020;True
+008cdfaa-3f1f-4e15-a9d2-0396772c478d;KIA;Coupe;Hybrid;Ceed;120;180;15000;30.10.2017;False
+3d30408e-c7cc-432e-8188-a3f3a41ce82f;KIA;Sedan;Electrolytic;Sorento;190;200;10000;14.10.2020;True
+c38fd6dd-8405-4880-b5a8-61571523167a;Mercedes;Coupe;Benzine;ML 350;120;210;30000;04.05.2015;True
+7f915d26-d6ec-46e8-8fd4-8f790f7b7299;Opel;Sedan;Hybrid;Insignia;150;170;100;24.09.2015;False
+c83e0318-92a7-40c0-a6d7-ebb237ef9fbd;Opel;Coupe;Benzine;Insignia;120;210;10000;06.01.2017;True
+48cbb06b-e3c8-486d-a622-cf9258471d33;Toyota;Coupe;Electrolytic;Supra;200;210;15000;12.09.2015;False
+fef371f9-d4b9-484b-afb6-4b16ddd153b1;BMW;Sedan;Hybrid;X1;190;180;30000;10.11.2020;True
+dda81417-c0c5-4e90-af16-d42fc4e7aaa7;Toyota;Hatchback;Hybrid;Supra;120;200;10000;10.05.2018;True
+a20a0e9f-cbf6-4834-9d78-ed22dfddee3a;Toyota;Sedan;Electrolytic;Avensis;200;170;100;21.02.2019;True
+5bbe4184-1871-4ffb-9891-0cff1ced5a41;BMW;Coupe;Benzine;X1;150;170;10000;08.07.2017;True
+4079ed9f-52db-4c32-9a35-7917033e26d1;Toyota;Sedan;Electrolytic;Avensis;110;200;30000;18.08.2017;False
+d7acdc62-14bf-469d-a40a-2d6437e3ad2c;Mercedes;Hatchback;Hybrid;GLE;120;180;30000;15.04.2020;False
+7ca163f9-03e0-43a7-9001-d567bc46d7b8;Honda;OffRoad;Benzine;Accord;200;180;10000;24.06.2019;True
+3d36f8e1-79af-44fd-9ca1-1c78efbf84c4;BMW;Coupe;Hybrid;X6;160;210;15000;07.12.2015;True
+6718aa49-7e87-4e59-8cf3-5262351f6cf9;Toyota;OffRoad;Benzine;Camry;150;200;30000;20.04.2017;False
+0c67c489-a403-45d7-8408-54c7f6dda364;KIA;Hatchback;Hybrid;Ceed;190;200;15000;28.05.2020;False
+8163a8e8-81bc-4e17-9d03-dd90b643bca9;KIA;Sedan;Electrolytic;Ceed;130;200;30000;27.02.2020;True
+2e24de30-80de-4f18-887b-bd3644be6ca0;BMW;Coupe;Hybrid;X6;190;200;100;29.12.2016;True
+fe906970-fc9b-47c2-b7df-5de7c26ac425;Toyota;Coupe;Hybrid;Avensis;180;170;30000;30.04.2015;False
+c446b3e3-11c4-48cd-8640-ed84f9b9e20a;Mercedes;OffRoad;Benzine;ML 350;200;190;10000;25.03.2015;False
+96a0b645-c254-4039-a057-ef8a2f296181;Toyota;OffRoad;Electrolytic;Camry;110;210;15000;11.05.2018;True
+1b371c8f-3b5c-49d1-be9d-56d8ceedd63c;Honda;Sedan;Benzine;Civic;150;210;15000;16.11.2016;True
+fbf22fad-4cf0-49e2-98e9-bc586524a8f5;Honda;Hatchback;Hybrid;Prelude;160;210;30000;27.03.2018;True
+19e19a04-5238-4b58-bec3-398933f0c198;Opel;Sedan;Benzine;Astra G;120;170;30000;06.09.2020;True
+82aa5920-cfc6-42c6-90f3-7bb997f91230;KIA;Coupe;Electrolytic;Sportage;180;210;10000;06.12.2018;True
+1d237c6d-ffdb-4b0f-a7f2-0ca6eed2e352;BMW;Hatchback;Benzine;X5;110;180;30000;11.12.2018;True
+1320d92e-509a-4faa-b15e-3e4ee89b5d23;Mercedes;Sedan;Benzine;S Class;130;200;15000;21.09.2016;True
+dd89edb5-cafa-4706-a01c-a7c898a0c9b2;Honda;OffRoad;Electrolytic;Civic;120;170;30000;15.02.2017;True
+98137cfa-4694-433a-be72-a6c5f90084f5;Opel;Hatchback;Benzine;Vectra C;200;210;15000;19.03.2016;True
+040c0820-8171-4a70-98d7-17686f686974;Honda;Hatchback;Electrolytic;Civic;150;200;15000;11.02.2019;True
+9af523b6-4285-41c5-b188-35045054e3ec;KIA;Sedan;Hybrid;Ceed;160;170;30000;16.05.2015;False
+c6692c9b-f112-4d7a-b6d1-f138d5a37501;Opel;OffRoad;Benzine;Vectra C;120;200;30000;21.07.2020;False
+95443e1b-de87-4327-b193-a696ca47f93e;BMW;Sedan;Electrolytic;X6;180;190;10000;28.12.2016;True
+41f737ef-ef0d-4719-aa5b-31164da78438;Toyota;Hatchback;Benzine;Camry;120;180;15000;01.06.2018;True
+ec217283-6e3e-4157-b806-79b667397fbb;KIA;Hatchback;Hybrid;Sportage;150;190;30000;09.12.2020;False
+727b573e-b315-409d-9ff5-0ab25caee5ce;KIA;Coupe;Hybrid;Sorento;110;180;10000;09.04.2018;True
+1cd0d038-f544-4f35-954d-c2f1b47fd347;Honda;Hatchback;Hybrid;Prelude;200;180;100;15.01.2016;True
+7cc8ba78-f94f-40ce-92b9-f458d9b7ef18;Opel;Sedan;Benzine;Insignia;100;170;30000;24.03.2016;False
+1812ee81-b395-4474-ba74-efa09ffa0471;Opel;OffRoad;Hybrid;Insignia;140;180;100;24.03.2020;True
+8e466f22-ae6c-4196-b173-849bb5b50725;Honda;Hatchback;Electrolytic;Prelude;170;190;15000;04.12.2019;True
+58469839-6a50-402e-bc79-8e0dff649229;Honda;Coupe;Hybrid;Accord;200;170;10000;07.09.2019;False
+e70948b0-70d9-4625-a84b-9b12edbbceb2;Opel;Coupe;Benzine;Insignia;120;210;10000;09.11.2016;True
+c2a45e8a-f57c-497a-9e7c-70926662dea1;KIA;Hatchback;Benzine;Sorento;150;190;100;27.05.2017;False
+d28b56b8-fbf1-478b-82e0-dcbf528da845;KIA;Sedan;Electrolytic;Sportage;150;180;10000;04.07.2020;False
+8cff66a3-7d6e-47f1-ad9e-6c4dc4aec4a7;KIA;OffRoad;Benzine;Ceed;140;180;15000;16.02.2019;True
+2f2f47b5-f01e-418a-aa61-b4fe5f0e5cb6;Honda;Sedan;Hybrid;Prelude;180;200;15000;28.01.2015;True
+89d611de-6836-4c58-b102-c371f246424b;Opel;Coupe;Electrolytic;Insignia;170;190;30000;23.02.2017;False
+bf638025-cf64-4ea7-bf4b-1da566bb82d9;KIA;Coupe;Electrolytic;Ceed;120;210;10000;31.12.2015;True
+7a03a96e-b97b-4357-869b-bd5f93ea47f2;KIA;Sedan;Hybrid;Ceed;170;190;100;04.01.2015;True
+edc46538-bcdd-4845-aea5-06925930286d;Honda;Coupe;Hybrid;Prelude;100;190;10000;27.02.2015;True
+cd982657-b37e-4b1f-8871-6d375acb2910;Honda;OffRoad;Electrolytic;Prelude;130;190;15000;03.11.2017;True
+b00a6ab9-897a-4fab-a59a-4edc62abeb66;Toyota;Coupe;Electrolytic;Avensis;100;200;100;02.02.2019;False
+c6c76ea3-eb80-471d-acd7-59e99b5dbc9b;Toyota;Coupe;Benzine;Camry;130;210;15000;05.05.2016;True
+1b2ccacf-d390-45b7-b6d3-a08173c537ed;Toyota;Coupe;Hybrid;Camry;120;180;10000;12.01.2017;False
+828a8e51-80ff-432f-af65-750016050f36;BMW;OffRoad;Electrolytic;X5;160;190;100;30.05.2015;False
+6f30516d-0990-4d32-a237-3b46ec21885d;Opel;Coupe;Benzine;Astra G;120;170;30000;23.03.2016;False
+dd64b3ec-d670-4ace-9c61-cb08334c70e6;Honda;Hatchback;Benzine;Accord;100;190;10000;12.02.2017;False
+782a7027-5b4d-46cf-a415-bfc665855cb6;Opel;Coupe;Electrolytic;Vectra C;180;180;10000;01.04.2019;False
+0cc090cd-0d7b-49a1-b114-9fcd17037045;KIA;Hatchback;Electrolytic;Sorento;110;210;30000;22.06.2015;False
+9bdd5fc1-4f94-4fe7-aac0-edc48b07881a;Toyota;Coupe;Electrolytic;Supra;140;190;30000;24.02.2020;False
+5aa76d2d-8c3a-450c-afa1-c8bde539a799;Honda;Sedan;Hybrid;Accord;190;180;15000;15.02.2015;False
+5be88fbf-62d8-482b-8606-6e971b445354;KIA;Sedan;Benzine;Ceed;150;190;10000;09.02.2020;False
+636474af-e5d5-4c37-ad1d-4d654083327f;BMW;Coupe;Benzine;X1;120;210;15000;01.03.2016;False
+c9b248da-4414-4086-ba37-174d7535ff84;Opel;Hatchback;Hybrid;Vectra C;130;170;15000;01.08.2020;True
+86f3bd53-6618-435b-a488-a40632ba100a;Mercedes;Coupe;Electrolytic;S Class;140;210;15000;17.10.2020;False
+49e71ebc-cac7-445c-9534-fc1fb7d9a72b;KIA;OffRoad;Electrolytic;Sportage;190;170;15000;06.02.2017;False
+d83cbc68-dc6d-4653-98c0-6e9e7b442ddd;Mercedes;Hatchback;Hybrid;GLE;180;170;10000;29.04.2020;True
+1bac6007-943c-4c62-9e6e-812b23e5942d;Mercedes;Coupe;Electrolytic;ML 350;160;190;15000;25.12.2015;True
+4b7ba8d7-0fac-4d3e-bbeb-e03b5dc82136;Honda;Sedan;Benzine;Accord;200;180;100;18.03.2015;False
+ad3693fd-c484-4a5c-99d8-8042f1be7496;BMW;OffRoad;Electrolytic;X6;150;170;100;15.08.2020;False
+d76aa7d9-05de-4932-b084-21b10c039763;KIA;Coupe;Hybrid;Sportage;130;190;10000;11.04.2017;True
+15b7c96b-1eaa-4c63-92df-9bad3dcd9833;Opel;Sedan;Benzine;Astra G;160;170;15000;20.11.2019;False
+ba0d3f0b-1daf-40f8-961c-3e2368989e47;Toyota;OffRoad;Hybrid;Avensis;100;210;100;10.12.2017;False
+53eeb4f8-ee7d-4355-9ef5-bdf6a4b04c3f;KIA;Coupe;Hybrid;Sorento;100;210;30000;02.11.2016;True
+74d80343-01f0-4648-97a4-8e34686fa687;Opel;Sedan;Electrolytic;Vectra C;150;200;10000;19.07.2018;False
+daf151ac-a977-4a37-9c58-c26e6f4a3535;BMW;Sedan;Electrolytic;X1;130;190;10000;24.09.2016;False
+09bd3d99-9b01-487b-8242-7646ecefb8ae;BMW;OffRoad;Hybrid;X6;180;170;15000;24.09.2015;False
+f5f48559-6739-434c-b318-74eb4627654c;Mercedes;Sedan;Benzine;S Class;140;190;30000;11.01.2020;True
+14ff3f8f-70fc-4b7e-b764-8cc363b942f9;KIA;Hatchback;Hybrid;Sorento;170;200;100;23.07.2019;True
+2a5b576a-3296-483f-b995-777d27ce4f4b;BMW;OffRoad;Hybrid;X6;180;210;10000;16.02.2020;True
+1be2e994-e628-4aca-9b92-2f3bf3305181;Toyota;Hatchback;Electrolytic;Camry;110;170;15000;09.08.2018;False
+f5590882-5f4f-471d-8e08-85ef75628ba5;KIA;Sedan;Electrolytic;Ceed;190;190;10000;21.03.2018;True
+273eb902-ff52-4ac1-8560-19a06eac217c;Opel;Hatchback;Electrolytic;Vectra C;150;200;30000;20.10.2018;True
+473ea803-26d1-49b5-9a0b-d403cfc2ece7;Toyota;OffRoad;Hybrid;Supra;120;190;100;28.03.2017;False
+9267a08d-a385-4466-b25f-01acf2c4771c;BMW;Hatchback;Benzine;X6;120;170;15000;22.04.2016;True
+f97843aa-4341-4c58-8ead-7eafeb98b1d4;Honda;Coupe;Electrolytic;Accord;160;190;30000;04.04.2018;True
+62c9cc3e-1213-4104-a470-90efc8bf38d9;Honda;OffRoad;Benzine;Accord;100;180;15000;06.09.2019;False
+71126933-f973-42ca-929e-b6f503a82ff8;BMW;Sedan;Electrolytic;X6;150;190;30000;19.11.2017;False
+d2959e3e-100f-4e52-84bb-4adcd7f111b4;Toyota;Sedan;Electrolytic;Camry;190;210;30000;24.04.2017;False
+962cbc36-d9b1-451e-8294-0dacad57d3bc;Mercedes;Coupe;Electrolytic;ML 350;120;210;10000;23.10.2016;False
+2ede8815-8838-4177-b1ee-36d65c64b875;Toyota;Sedan;Electrolytic;Avensis;120;170;100;27.10.2015;True
+52d9aeaf-017d-4acc-98af-84ca39657e23;Toyota;Hatchback;Benzine;Supra;170;190;15000;08.08.2019;False
+d8d0f962-5c97-4425-b53a-c55de7badcf2;Toyota;OffRoad;Benzine;Supra;200;180;30000;08.02.2018;False
+57fa0d07-c8fe-4090-974f-bdaf09909236;Opel;Sedan;Electrolytic;Insignia;140;200;30000;04.01.2020;True
+1c280de1-3782-4210-85ae-0c6e05643152;Mercedes;OffRoad;Electrolytic;S Class;110;180;30000;24.06.2018;True
+8fb9caa3-4f84-4f44-818b-0392a41f10e9;KIA;Coupe;Hybrid;Ceed;110;170;10000;30.03.2015;True
+e0555165-2ef3-4c93-8e7d-76aadce9c13f;Opel;Coupe;Benzine;Insignia;120;170;30000;21.09.2018;True
+d43ec919-f357-4aee-8e60-d9a9bf17365e;BMW;Sedan;Electrolytic;X6;160;170;15000;17.06.2016;False
+db2a7d47-d5aa-4fd1-83e5-31feec70dbbb;Opel;Sedan;Hybrid;Vectra C;140;190;15000;02.01.2016;True
+cac0057d-6f34-4cd9-8f54-227f2879dfae;Opel;Sedan;Benzine;Vectra C;200;170;15000;02.06.2019;True
+b5513027-dd20-43ab-a165-7fa255f382f7;Toyota;Hatchback;Hybrid;Camry;170;190;10000;18.08.2017;True
+6e7f04a1-3abd-4d41-93d4-ac32793f6ed6;Mercedes;Hatchback;Electrolytic;GLE;120;200;100;01.10.2018;True
+b0e08bb1-9e3a-4704-b47d-2dc3ef035836;BMW;Hatchback;Electrolytic;X6;160;170;15000;19.08.2019;True
+238fafa4-f266-4bf3-892f-231342c09186;KIA;Coupe;Hybrid;Sorento;150;210;10000;14.04.2017;False
+69582cfe-a501-42cf-992a-566e2e5b5ce4;Honda;Coupe;Hybrid;Civic;150;210;10000;27.09.2020;False
+4a744787-81e6-48f0-933b-1d7eb690b94e;BMW;Coupe;Hybrid;X1;110;210;30000;06.09.2017;False
+92f62433-85bb-4cac-b94a-50802fc8ef0f;Opel;Sedan;Benzine;Vectra C;140;170;100;28.08.2015;True
+ed20136c-e8d6-408d-82bf-1a3a13520ec2;BMW;Coupe;Benzine;X5;170;200;30000;18.10.2020;True
+14dc5264-d67f-44f4-a7c8-925e625cadad;Opel;Sedan;Electrolytic;Vectra C;180;200;100;05.06.2017;True
+7d2eb923-6e18-4ca9-ad72-dcdb100c39b8;Toyota;Hatchback;Benzine;Avensis;140;180;30000;19.01.2019;True
+d9f16ec0-60da-4290-bfd0-1e00b9d845ab;Opel;Coupe;Electrolytic;Vectra C;200;170;10000;14.07.2015;False
+e408fe29-a1d3-4f2a-a5a7-fa86aae90706;KIA;Coupe;Benzine;Sportage;100;180;30000;27.10.2016;True
+a995f37b-1ae9-4c2e-810c-e9b6308c7145;Mercedes;OffRoad;Hybrid;GLE;160;180;100;31.01.2017;True
+8e054f98-71d9-4f4e-97a1-01534c5cac29;Toyota;Sedan;Hybrid;Avensis;140;200;10000;18.05.2016;False
+3d9c9eee-0830-445d-9f58-d4bf0b049116;Toyota;Sedan;Hybrid;Camry;130;180;15000;17.01.2018;False
+467124bc-0e30-4f28-bf71-ea164c46eae7;Opel;Hatchback;Hybrid;Vectra C;200;190;30000;23.10.2015;False
+08cfe199-7759-4428-a8b1-44bb211c2a66;Honda;Hatchback;Benzine;Prelude;110;210;10000;07.05.2020;False
+5786768d-5b08-4c44-bc53-d9d46a661927;BMW;Hatchback;Benzine;X5;190;210;10000;20.12.2018;False
+e41eeb07-ae85-48d6-9d7d-ea5556223005;Opel;OffRoad;Hybrid;Astra G;160;200;15000;13.04.2019;False
+337175e9-b813-41ac-81b1-331da8705ada;Mercedes;Hatchback;Electrolytic;S Class;200;170;15000;10.08.2016;False
+5b25e2b6-d3d3-4269-a3eb-ed884a8a741c;Opel;Coupe;Hybrid;Insignia;200;200;30000;15.07.2016;True
+cc58f982-d72e-4983-80a7-b3075e491826;Toyota;Coupe;Electrolytic;Supra;130;180;100;29.02.2016;True
+40db14b2-a7ed-4ac8-b330-0e023b9a5bc0;BMW;Sedan;Benzine;X6;120;170;30000;08.08.2018;True
+3b7d1060-2355-4927-859e-35f9afc653c4;BMW;Coupe;Electrolytic;X1;200;200;30000;26.05.2017;False
+350e6e90-ec39-4be6-81ef-6afff672b0d3;KIA;Sedan;Benzine;Sorento;130;210;100;28.02.2020;True
+d1a7a148-eafc-482c-adcd-713483444ff9;Toyota;Sedan;Hybrid;Supra;190;190;30000;22.10.2018;True
+6c5ab1a7-0d67-47d7-b374-36d420666f1a;Honda;Hatchback;Benzine;Accord;200;180;15000;04.02.2016;False
+d1190b10-e7fa-423e-9c86-0a6a123c439b;BMW;Sedan;Benzine;X5;100;200;10000;06.09.2019;False
+db2fa8f6-d0f8-4597-ba66-d361e3f04fd2;Mercedes;Sedan;Electrolytic;GLE;110;210;100;10.04.2016;True
+42b253c5-2f4b-4961-9c61-2b1b9b96651e;Honda;OffRoad;Benzine;Prelude;110;210;30000;29.03.2017;False
+4aa2b0cb-6379-453f-b3c6-e4dbe7b99bd2;Mercedes;Hatchback;Hybrid;ML 350;170;180;100;19.12.2016;True
+0b5a485e-fff2-49d6-b69d-ffa338c504bd;KIA;Sedan;Electrolytic;Sorento;140;180;15000;21.09.2020;True
+40db32f6-5ef7-4e81-9971-9cceaa72dae1;BMW;OffRoad;Electrolytic;X6;190;200;10000;04.11.2019;False
+24c3e77a-1727-4596-9ddf-e61893044a23;BMW;Coupe;Electrolytic;X6;120;170;10000;07.03.2019;False
+0965c74e-3901-4dca-aff9-036e5594ea6a;Mercedes;OffRoad;Electrolytic;S Class;170;190;15000;03.10.2015;True
+be58dc55-28d5-4b48-8e07-0a52db3ea295;Opel;Coupe;Benzine;Vectra C;110;190;15000;30.01.2019;True
+c79990de-e4c7-4cd5-93a3-95ebd862e6f4;Opel;Hatchback;Hybrid;Astra G;200;170;100;15.02.2017;True
+f5a3e5ea-dad7-420c-a29d-10bcd268360b;Toyota;Coupe;Hybrid;Supra;150;210;15000;02.04.2020;True
+e01a4896-ab97-42e4-9b7f-1753daf94476;BMW;Sedan;Benzine;X6;200;170;15000;01.05.2020;True
+d08040bb-9569-48da-85c0-7a193688fa45;Mercedes;Coupe;Benzine;ML 350;180;190;15000;14.02.2019;False
+317cbd85-4541-44a4-9ed0-9b5e07dd9bd0;Opel;Coupe;Hybrid;Astra G;130;210;15000;09.04.2015;True
+ab473a9a-de43-4bf1-a4e6-ffd3a6e3f72f;KIA;Hatchback;Benzine;Sportage;180;170;100;22.06.2018;True
+a10a11cd-5ada-4888-9e4f-ffb3a769c443;Honda;Sedan;Electrolytic;Prelude;120;170;10000;13.05.2016;True
+1c20988c-2ed3-4a25-ad0e-fe98a413d8cc;Toyota;OffRoad;Hybrid;Supra;110;200;15000;04.02.2018;True
+d1a83f0b-fd30-417a-8de1-716624cbc7f4;Toyota;Sedan;Benzine;Camry;160;210;15000;14.04.2020;True
+f08b53bb-2edb-4eba-8a81-b65aab0e87f8;Toyota;Hatchback;Hybrid;Avensis;180;200;15000;26.03.2015;True
+6a2c7a26-0003-49ea-b6fe-06624d7f7b93;Honda;OffRoad;Electrolytic;Accord;190;210;30000;27.05.2020;False
+b4e6363c-0c28-4ba4-8220-a548908fba4d;Mercedes;Sedan;Hybrid;S Class;120;200;100;08.04.2015;False
+4c46fedf-a8a0-4985-aef8-7fb0b1f9062e;Honda;OffRoad;Hybrid;Accord;120;210;10000;16.01.2016;False
+6deb3dd3-af76-44a1-a70b-9c90b38d83f8;Honda;Sedan;Electrolytic;Civic;110;210;30000;09.04.2015;True
+11fc288e-ce86-4b3f-a691-8236c221c594;Opel;Hatchback;Benzine;Vectra C;200;190;30000;16.10.2017;False
+87561bd2-8712-4363-b8ff-0e2235a2b419;Toyota;OffRoad;Hybrid;Avensis;120;200;30000;05.08.2018;False
+54e8775f-785e-4d62-8ca0-0f28536d2fd1;BMW;Sedan;Hybrid;X6;190;190;100;30.07.2017;True
+263c139f-57a1-42f4-86b0-79c27d348fbb;Mercedes;Hatchback;Electrolytic;ML 350;110;210;15000;13.05.2016;False
+99e50f52-93ab-4b34-bfc5-d6ee39a2cafc;Honda;Coupe;Hybrid;Prelude;140;200;10000;07.09.2020;False
+f2af8e69-4356-4074-b896-175bb0fca31f;BMW;OffRoad;Benzine;X6;110;190;100;18.05.2019;False
+92759201-b38a-4043-8b0a-de75b661b167;Toyota;Coupe;Electrolytic;Supra;170;190;30000;26.06.2018;True
+cb99957c-be22-4500-9df2-98aff709674d;Honda;Sedan;Electrolytic;Civic;100;170;15000;12.02.2015;False
+74897ceb-5821-406a-92b9-f8e09802032c;Toyota;OffRoad;Hybrid;Camry;190;210;10000;14.06.2017;True
+20a6ec75-f5bd-42bd-927a-81b3b52bbac1;KIA;OffRoad;Electrolytic;Sportage;200;170;100;31.08.2017;False
+2d042f01-ddfd-4129-b82b-017af50a8895;Mercedes;OffRoad;Benzine;ML 350;140;190;100;16.05.2019;True
+d6ac72ff-f4e3-41bc-9148-7ee85e5bc153;Toyota;Sedan;Hybrid;Camry;180;200;30000;23.10.2015;True
+dcbd91b6-1e82-4b2e-abe9-fc8476c24bb2;Opel;Coupe;Hybrid;Astra G;160;170;15000;26.09.2016;True
+90b09e63-434e-47d3-a633-20e411afeaf5;KIA;Sedan;Benzine;Sportage;160;190;15000;09.04.2015;True
+bcc32867-76d4-4d07-b80e-64c3baaea976;KIA;OffRoad;Electrolytic;Sorento;200;180;30000;24.11.2018;False
+55701b44-bf38-48b1-9dbc-aa6d406b5666;Mercedes;Coupe;Hybrid;ML 350;150;210;100;31.12.2017;False
+73b04828-703d-443d-8f44-9096bcf7e401;BMW;Sedan;Benzine;X1;150;170;15000;06.10.2020;True
+0dbdb85a-e903-4b41-bc03-cfad8edfddbe;KIA;Sedan;Electrolytic;Ceed;200;170;10000;14.05.2020;False
+ac946921-8537-4379-af5a-c32c3b021792;Mercedes;Coupe;Hybrid;S Class;180;210;15000;18.04.2015;False
+fc7226e3-8be3-4e77-8674-8d71b0e6ff3c;BMW;OffRoad;Hybrid;X5;180;210;15000;20.03.2015;True
+e685a8c0-bf92-450e-a341-d27c1c6f3ec8;Toyota;Coupe;Benzine;Supra;100;210;100;20.11.2018;True
+dcd5a1fe-a6f7-425c-81cf-fbc3934f16da;Honda;Sedan;Hybrid;Accord;170;190;15000;07.04.2018;False
+cf46b0d8-1941-4f55-a5ae-af77f0e96bfb;Mercedes;Sedan;Hybrid;ML 350;120;180;100;21.07.2018;True
+c60c22d9-c1ef-4506-b0d8-52336ec9b315;KIA;OffRoad;Electrolytic;Sorento;170;210;15000;12.11.2020;True
+feed41fd-b915-4c6a-94b1-728a22124e94;Opel;Hatchback;Hybrid;Insignia;190;170;10000;29.09.2020;False
+45dffebe-7d83-43b1-9e7e-c85e2606c284;KIA;Sedan;Benzine;Ceed;120;200;10000;21.07.2018;False
+0ed5e55f-58f3-444c-9bc8-77db86a3d2c4;Honda;Sedan;Benzine;Prelude;120;200;15000;10.10.2015;True
+b41dcc4d-58d2-4e70-971e-5142ce4a0e2e;KIA;Sedan;Hybrid;Sorento;120;180;10000;22.03.2016;False
+94a04572-458a-4578-aaa2-d4c8b3dfcade;Opel;Hatchback;Electrolytic;Insignia;150;200;10000;25.05.2018;True
+8e256c21-99cf-4a3f-831a-4fee26dd86e6;Opel;Sedan;Benzine;Astra G;160;210;15000;02.08.2018;True
+c8f0cf49-b245-43a9-a8cb-0d0e1e6017ed;KIA;OffRoad;Electrolytic;Sportage;140;190;15000;31.07.2019;False
+4cf07a9b-0eb2-4eaf-a2ef-63d850cecb56;Toyota;Coupe;Benzine;Supra;180;170;30000;10.04.2016;True
+1d50aa0e-2c3a-48f6-a4ef-b17b3e5ce582;BMW;Hatchback;Hybrid;X1;100;200;100;15.11.2015;True
+a2bdb3eb-191b-48f8-86a8-ae83112dcfd9;Opel;Coupe;Hybrid;Vectra C;110;180;100;11.02.2015;False
+bb6e0dc2-8f7d-41a0-b953-c029eb38f8d9;BMW;OffRoad;Hybrid;X6;140;170;100;04.07.2016;True
+ca3101c8-d7b3-4463-ba24-47c08536876d;KIA;OffRoad;Benzine;Ceed;150;190;30000;17.11.2016;False
+050df291-23c0-417d-b97f-147681a897f6;BMW;Hatchback;Hybrid;X6;200;170;15000;03.05.2016;False
+63a0a80d-2c1f-483c-a818-32421144325e;Toyota;Sedan;Benzine;Camry;120;180;10000;30.09.2018;False
+1f1eccb2-07f5-40b1-9a94-14941dc8999a;KIA;Sedan;Benzine;Sorento;200;210;10000;23.07.2020;False
+a29d10d3-9873-49e6-8edb-9edfd668d228;Toyota;Coupe;Electrolytic;Supra;140;180;10000;19.05.2020;True
+a160476a-931b-4929-8821-2bfdcf03a740;Mercedes;Sedan;Benzine;S Class;130;180;15000;01.05.2017;True
+799cd415-5bb4-40e9-89bb-ed95e04dfabe;BMW;Coupe;Benzine;X5;160;170;30000;05.04.2018;True
+5a59fd2e-5ae2-4cf0-a2ed-3aee82ac60c4;KIA;Hatchback;Hybrid;Ceed;150;210;30000;02.07.2018;False
+fffc31bd-6fbc-48a6-9e21-db2ee33a7432;Honda;OffRoad;Electrolytic;Civic;170;190;30000;24.05.2017;True
+92f7de15-33bd-4900-b4a5-0d8ff55ab00d;BMW;Sedan;Electrolytic;X1;140;200;10000;26.09.2019;False
+5a3a1e38-01c9-47cb-b02c-968f08f90751;Toyota;Coupe;Benzine;Camry;160;200;15000;29.05.2015;False
+39a71c60-1ef5-4a00-80a0-bcd35ff2dad7;Honda;Sedan;Electrolytic;Prelude;120;190;100;13.05.2019;False
+a713459b-8a85-4770-9d37-26d69d0365ab;Honda;Coupe;Hybrid;Accord;110;190;10000;03.11.2018;False
+51059511-408d-4794-8033-64f8e433b2de;KIA;OffRoad;Benzine;Sorento;160;210;10000;21.04.2019;False
+0db7b87b-d7cc-4f0c-aca5-09847f455e4a;Toyota;Hatchback;Electrolytic;Avensis;200;190;15000;24.03.2019;True
+25808eae-733f-4c8b-b0b2-d2d7ea823e42;Opel;OffRoad;Hybrid;Vectra C;180;190;10000;13.06.2016;True
+e28a5b98-2c99-4e97-b024-d7ba0eda8723;KIA;Hatchback;Hybrid;Sportage;110;210;100;12.10.2020;False
+be2d1ab2-5949-4790-89af-52f847ae0398;KIA;OffRoad;Electrolytic;Sportage;180;190;15000;15.03.2018;True
+218d1872-50b9-4843-bf5e-507e61a352a3;BMW;Coupe;Electrolytic;X1;180;180;15000;15.01.2017;False
+5f395819-d8ec-48cb-874a-900938591703;Mercedes;Hatchback;Benzine;ML 350;100;180;30000;16.09.2015;True
+2828ba1b-e364-4bde-92ac-8d1ef063f83a;Honda;Hatchback;Benzine;Civic;110;210;100;15.11.2015;False
+71cb337e-60b5-4b9a-82bf-288c170058f9;KIA;Sedan;Electrolytic;Ceed;180;170;10000;02.11.2018;False
+6bc39b29-5bba-43bd-9cce-a1cc46cffc04;BMW;Coupe;Electrolytic;X6;150;190;100;26.10.2018;True
+0441cb0d-2222-44e9-b846-b0f53f1209d7;BMW;Hatchback;Benzine;X5;160;170;30000;17.11.2015;True
+0c378dd5-1cc1-462b-9938-1fce9cea0edc;Honda;OffRoad;Electrolytic;Prelude;140;190;15000;08.08.2020;True
+52879af0-4c04-4685-bae0-f76d88a2f4d4;Honda;OffRoad;Hybrid;Civic;180;180;30000;23.03.2019;True
+8501eec1-10d0-42c8-b7d0-eba62d59ea03;Honda;OffRoad;Electrolytic;Accord;150;190;30000;25.04.2019;True
+9a47f75a-73e9-4562-a1aa-d193162c7f8b;Mercedes;OffRoad;Hybrid;ML 350;100;170;30000;20.10.2016;False
+d82478e5-7400-437f-aa47-7556482e3061;BMW;Coupe;Hybrid;X6;180;180;100;30.06.2019;True
+1d51cb52-8b69-4d41-a2ba-67fb178c93a1;BMW;Sedan;Hybrid;X5;190;210;100;26.12.2019;True
+0475e7ef-9d11-4d9d-a1e3-94cb5f9badb7;BMW;Hatchback;Benzine;X5;100;180;30000;24.12.2015;True
+3011412e-75ce-4698-b8c3-9740e5989966;Opel;Sedan;Benzine;Vectra C;180;200;15000;19.10.2016;False
+4f05cf86-3efd-42cb-98a2-6ec0b7d43a35;Opel;OffRoad;Hybrid;Vectra C;140;180;30000;28.11.2016;True
+d491ed56-a21c-45d4-8642-b73113c3ed42;BMW;Hatchback;Electrolytic;X1;160;180;10000;10.08.2017;True
+0644a216-ca9b-45de-8382-e579912913fa;Opel;OffRoad;Hybrid;Astra G;170;170;15000;31.12.2018;True
+8ec771d8-c9b5-440a-aca3-5991655837a0;Toyota;Sedan;Electrolytic;Avensis;110;210;100;10.02.2015;True
+ff3048e7-222d-48d0-a7c2-103c5dafa6a0;Toyota;OffRoad;Hybrid;Avensis;130;170;100;24.06.2020;False
+e371610d-a38f-41c3-981c-b0aab73ea040;Toyota;Hatchback;Benzine;Camry;160;200;30000;10.10.2020;False
+71213cc7-c8db-4533-ac17-425b00ee9a31;KIA;Hatchback;Electrolytic;Ceed;100;180;100;13.04.2020;False
+1ce556c9-2e34-40e8-999e-f0e19184cb78;Toyota;OffRoad;Benzine;Supra;180;210;100;23.04.2017;True
+0c761357-1027-4537-9ac8-3c886b0293c3;Opel;Sedan;Electrolytic;Astra G;180;180;30000;15.01.2015;False
+b0030838-97a4-4a40-9ad8-5f04778d67b5;Opel;OffRoad;Electrolytic;Vectra C;170;170;10000;08.09.2016;True
+ced06ed1-3887-4974-8bc7-763b6be09430;KIA;OffRoad;Electrolytic;Ceed;140;210;30000;30.09.2019;True
+97d4bd0c-e0d5-4d1f-b5bf-f78c45c13836;KIA;Hatchback;Hybrid;Ceed;150;190;10000;05.10.2018;False
+ba307378-1ca9-4ebb-a645-3896b9166e59;Opel;Coupe;Electrolytic;Vectra C;110;180;100;28.04.2020;False
+54ec9127-0af4-4fa9-bc3c-1e547dc66436;Toyota;Hatchback;Hybrid;Camry;110;210;10000;07.05.2015;False
+1051e76d-407d-4ce2-aeba-1327d8524bc8;Toyota;Hatchback;Electrolytic;Camry;200;200;15000;21.01.2015;True
+6ab79a9e-6eec-4fbc-a83e-2af5250144f3;Opel;Sedan;Benzine;Insignia;190;200;15000;15.04.2020;True
+a2106b4d-34e9-4767-b9e1-46ad2cd7de08;KIA;Hatchback;Electrolytic;Sorento;170;180;10000;25.09.2019;False
+60159f46-3d94-4400-98e5-3882c23a0594;BMW;Coupe;Electrolytic;X1;170;180;15000;02.05.2019;True
+93b7b08b-68ef-4cbb-ba5f-080cc8402aeb;Honda;Coupe;Benzine;Prelude;190;170;100;07.05.2020;True
+09af7aa3-6288-4d17-8686-8ec192644f64;Honda;Hatchback;Benzine;Prelude;140;210;100;29.05.2016;True
+42abcf13-f4b2-4814-b10a-738994d9de8b;Opel;Hatchback;Hybrid;Insignia;120;210;100;24.06.2016;True
+acf1d6e2-533a-410e-a150-0b153c5fb5c5;Toyota;Coupe;Benzine;Supra;160;180;10000;20.12.2016;False
+d20db01b-7315-4592-b007-f9afa01dc2cf;Mercedes;Hatchback;Electrolytic;S Class;140;200;15000;01.08.2016;False
+928ed9bd-6505-4b5c-a55b-6cc0a2ea107c;BMW;Hatchback;Benzine;X6;200;200;100;16.08.2020;False
+534ebbfe-5a25-4d98-aabb-e0930e1ec1a0;Opel;Sedan;Hybrid;Vectra C;110;180;10000;16.03.2015;False
+5e6fec95-6b94-4c34-812c-2d1329593c6e;Honda;Sedan;Hybrid;Accord;190;190;15000;02.03.2018;False
+4bc908cf-49aa-406e-8f90-b807fae4e1a9;KIA;Coupe;Benzine;Ceed;160;190;100;07.04.2019;True
+56ceb8e7-a7a2-4e61-91d4-a7397d4ba344;Toyota;Hatchback;Electrolytic;Avensis;150;200;100;15.07.2019;False
+7340eb3b-2e86-4ba5-8807-9ee80940376a;Honda;Coupe;Benzine;Accord;120;210;30000;16.04.2017;False
+403ec91d-d10e-4e5a-abb4-6edb9a0914f6;BMW;Hatchback;Electrolytic;X1;190;210;15000;10.03.2019;False

@@ -19,6 +19,6 @@ namespace DataGenerator
             public static readonly int[] Displacement = {10000,100,15000,30000};
             public static readonly bool[] IsAvailable = { true,false };
             public const int numberOfRecords = 1000;
-            public const string Separator = ";";
+            public const string delimetr = ";";
     }
 }

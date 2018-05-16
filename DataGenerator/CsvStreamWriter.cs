@@ -9,30 +9,28 @@ namespace DataGenerator
 {
     public class CsvStreamWriter : StreamWriter
     {
-        string delimetr;
+        private readonly string delimetr;
 
-        public CsvStreamWriter(string filePath,string delimetr):base(filePath)
+        public CsvStreamWriter(string filePath):base(filePath)
         {
-            this.delimetr = delimetr;
+            this.delimetr = Helper.delimetr;
         }
 
-        public override void Write(string row)
+        public void WriteLine(IEnumerable<string> lines)
         {
-            try
-            {
-                base.WriteLine(row);
-            }
-            catch (IOException ex)
-            {
-                throw ex;
-            }
+            if (!lines.Any()) return;
+
+            var line = string.Join(delimetr, lines);
+            base.WriteLine(line);
         }
 
-        public void Write(params string[] values)
+        public void Write(params string[] lines)
         {
+            if (!lines.Any()) return;
 
+            var line = string.Join(delimetr, lines);
+            base.WriteLine(line);
         }
-        //сгенерировать фаил и прочесть из кор
-        // get car with validator  по параметрам 
+ 
     }
 }
