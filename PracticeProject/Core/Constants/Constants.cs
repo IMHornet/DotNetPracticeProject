@@ -2,8 +2,7 @@
 {
     public class Constants
     {
-        public const  char delimetr = ';';
-        public const  char newline = '\n';
+        public const char delimetr = ';';
         public const  int  entries = 7;
     }
 }

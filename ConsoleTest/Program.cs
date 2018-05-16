@@ -1,6 +1,11 @@
 ﻿using PracticeProject.Core.Manager;
 using PracticeProject.Core.Model;
+using DataGenerator;
 using System;
+using System.Collections.Specialized;
+using System.Collections.Generic;
+using System.IO;
+using PracticeProject.Core.Constants;
 
 namespace ConsoleTest
 {
@@ -9,15 +14,22 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            CarManager manager = new CarManager();
-            manager.GetCarsFromFile();
-            Car eCar = new Car();
-            eCar = manager.FindCarByID("73dab7a0-7f8b-432b-b494-cb365ed92953");
-            Console.WriteLine(eCar);
-            //eCar.Drive(3, 50);
-            //manager.UpdateCarInFile(eCar);
 
-            Console.ReadKey();
+            //Generator generator = new Generator();
+            //CarManager carManager = new CarManager();
+            //List<Car> cars = generator.GetData(500);
+            //using (CsvStreamWriter writer = new CsvStreamWriter(carManager.GetPath()))
+            //{
+            //    foreach(Car car in cars)
+            //    writer.WriteLine(car);
+            //}
+            //carManager.GetCarsFromFile();
+            //foreach (Car car in carManager.GetCarCollection())
+            //{
+            //    Console.WriteLine(car.ConsoleView());
+            //}
+
+                Console.ReadKey();
         }
     }
 }

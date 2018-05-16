@@ -8,3 +8,15 @@ D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\Co
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.exe
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\ConsoleTest\obj\Debug\ConsoleTest.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\DataGenerator.dll
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\PracticeProject.dll
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\DataGenerator.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\bin\Debug\PracticeProject.pdb
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\ConsoleTest\obj\Debug\ConsoleTest.pdb
