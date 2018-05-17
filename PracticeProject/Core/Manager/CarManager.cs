@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace PracticeProject.Core.Manager
 {
@@ -134,7 +135,7 @@ namespace PracticeProject.Core.Manager
         }
 
         // search with object SearchFilter -> engine , year range  from to 
-        public List<Car> FindCarByParams(string model, string year) {
+        public List<Car> FindCarByParams(SearchFilter filter) {
 
             string line = string.Empty;
             Car car = null;
@@ -145,10 +146,16 @@ namespace PracticeProject.Core.Manager
                 {
                     while ((line = sr.ReadLine()) != null)
                     {
-                        if (line.Contains(model) && line.Contains(year))
+                        if (line.Contains(filter.Model)&& 
+                            line.Contains(filter.Year)&&
+                            line.Contains(filter.Engine)&&
+                            CarDateRange(line,filter.dateFrom,filter.dateTo))
                         {
                             car = CarParseFromLine(line);
-                            Cars.Add(car);
+                            if (car != null)
+                            {
+                                Cars.Add(car);
+                            }
                         }
                     }
                 }
@@ -206,6 +213,20 @@ namespace PracticeProject.Core.Manager
               {
                 throw ex;
               }
+        }
+
+        public bool CarDateRange(string carLine, DateTime? dateFrom, DateTime? dateTo) {
+           
+            var dateCar = string.Empty;
+            var carDate = DateTime.Now;
+            var regEx = new Regex(Constants.Constants.regExDatePattern);
+
+            dateCar = regEx.Match(carLine).Value;
+            return (DateTime.TryParse(dateCar, out carDate)
+                   &&
+                   (dateFrom.HasValue && carDate >= dateFrom || !dateFrom.HasValue)
+                   &&
+                   (dateTo.HasValue && carDate <= dateTo || !dateTo.HasValue));
         }
 
         public string GetPath()
