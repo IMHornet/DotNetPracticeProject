@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars xmlns="http://www.develop.com/car">
+	<Car YearOfProduction="2016-08-22T16:02:00" Model="KIA" Type="OffRoad" Engine="Benzine" Id="1c8fd5c2-a27c-42db-892e-61bfdd4db4e6" Name="Sportage" Power="150" MaxSpeed="200" Milage="10000" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2016-03-23T13:41:00" Model="BMW" Type="OffRoad" Engine="Electrolytic" Id="ca61e143-749c-4ef3-aa05-1e3e178eae7c" Name="X6" Power="150" MaxSpeed="170" Milage="30000" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2015-12-03T18:29:00" Model="KIA" Type="Hatchback" Engine="Electrolytic" Id="7e74acea-85f2-4edc-8844-a72aa71ab5f9" Name="Ceed" Power="190" MaxSpeed="210" Milage="15000" isAvailable="true" xmlns="" />
+	<Car YearOfProduction="2019-03-28T07:24:00" Model="Honda" Type="Sedan" Engine="Benzine" Id="d90b4550-5cf8-4f9d-a5b2-f68094b24276" Name="Prelude" Power="140" MaxSpeed="190" Milage="100" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2020-09-17T14:03:00" Model="Toyota" Type="Hatchback" Engine="Electrolytic" Id="e1b59d98-7f01-43a9-b39f-7359fe5b817f" Name="Avensis" Power="190" MaxSpeed="190" Milage="30000" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2016-09-10T04:40:00" Model="KIA" Type="OffRoad" Engine="Benzine" Id="fad7a2f2-763a-44fb-896f-879af2d550dd" Name="Sportage" Power="100" MaxSpeed="210" Milage="10000" isAvailable="true" xmlns="" />
+	<Car YearOfProduction="2017-01-12T13:13:00" Model="Opel" Type="Hatchback" Engine="Electrolytic" Id="b2878861-f5d4-4a9d-afbf-3d991f38988d" Name="Astra G" Power="120" MaxSpeed="190" Milage="100" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2016-10-18T13:02:00" Model="Opel" Type="Hatchback" Engine="Electrolytic" Id="d851ce47-f13d-404e-93e1-2f3513d24b40" Name="Vectra C" Power="120" MaxSpeed="170" Milage="10000" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2016-10-29T16:34:00" Model="Honda" Type="OffRoad" Engine="Hybrid" Id="e83d873f-f64d-435f-a30f-2a842d26ffce" Name="Prelude" Power="140" MaxSpeed="180" Milage="15000" isAvailable="false" xmlns="" />
+	<Car YearOfProduction="2017-10-19T04:40:00" Model="Honda" Type="OffRoad" Engine="Electrolytic" Id="70368dab-4d36-4b3c-af53-fd2079a31e19" Name="Civic" Power="150" MaxSpeed="180" Milage="100" isAvailable="false" xmlns="" />
+</Cars>

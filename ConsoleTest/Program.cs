@@ -14,21 +14,36 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            //CarManager carManager = new CarManager();
-            //SearchFilter filter = new SearchFilter()
-            //{
-            //    Model = "Mercedes",
-            //    Engine = "Benzin",
-            //    Year = "2018"
-            //};
+            Generator generator = new Generator();
+            using (Stream fileStream = new System.IO.FileStream(@"D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\Resources\CarsFile.xml", FileMode.Create))
+            {
+                var xmlStreamWriter = new XmlStreamWriter();
+                xmlStreamWriter.Begin(fileStream, "Cars", "http://www.develop.com/car", new Dictionary<string, string>());
 
-            //carManager.FindCarByParams(filter);
+                foreach (var item in generator.GetData(10))
+                {
+                    xmlStreamWriter.WriteElement(item);
+                }
+                xmlStreamWriter.Finish();
+                Console.WriteLine("DONE!!");
+            }
 
-            //foreach (Car car in carManager.GetCarCollection()) {
-            //    Console.WriteLine(car.ConsoleView());
-            //}
 
-            Console.ReadKey();
+                //CarManager carManager = new CarManager();
+                //SearchFilter filter = new SearchFilter()
+                //{
+                //    Model = "Mercedes",
+                //    Engine = "Benzin",
+                //    Year = "2018"
+                //};
+
+                //carManager.FindCarByParams(filter);
+
+                //foreach (Car car in carManager.GetCarCollection()) {
+                //    Console.WriteLine(car.ConsoleView());
+                //}
+
+                Console.ReadKey();
         }
     }
 }
