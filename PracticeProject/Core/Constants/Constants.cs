@@ -4,5 +4,6 @@
     {
         public const char delimetr = ';';
         public const  int  entries = 7;
+        public const string regExDatePattern = "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{4}";
     }
 }
