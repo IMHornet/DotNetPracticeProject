@@ -13,7 +13,5 @@ namespace PracticeProject.Core.Model
         public string Year { get; set; }
         public DateTime? dateFrom { get; set; }
         public DateTime? dateTo { get; set; }
-
-
     }
 }
