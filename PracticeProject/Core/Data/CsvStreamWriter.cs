@@ -5,15 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataGenerator
+namespace PracticeProject.Core.Data
 {
     public class CsvStreamWriter : StreamWriter
     {
         private readonly string delimetr;
-
+       
+       
         public CsvStreamWriter(string filePath):base(filePath)
         {
-            this.delimetr = Helper.delimetr;
+            this.delimetr = Constants.Constants.csvDelimetr;
         }
 
         public void WriteLine(IEnumerable<string> lines)

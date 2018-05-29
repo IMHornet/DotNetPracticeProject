@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 namespace DataGenerator
 {
-    public class Helper
+    internal class Helper
     {
         public static readonly NameValueCollection ModelVersion = new NameValueCollection()
         {

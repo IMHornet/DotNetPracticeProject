@@ -6,27 +6,29 @@ using System.Xml.Serialization;
 namespace PracticeProject.Core.Model
 {
     [Serializable]
-    public class Car:ICar
+    public class Car : ICar
     {
-        [XmlAttribute]
+        public const string XmlNameElement = "Car";
+
+        [XmlElement(Order = 2)]
         public CarsModel Model { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 3)]
         public CarsType Type { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 4)]
         public CarsEngine Engine { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 1)]
         public Guid Id { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 5)]
         public string Name { get; set; }
-        [XmlAttribute]
-        public int    Power { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 6)]
+        public int Power { get; set; }
+        [XmlElement(Order = 7)]
         public int  MaxSpeed { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 8)]
         public double Milage { get; set; }
-        [XmlAttribute]
+        [XmlElement(Order = 9)]
         public DateTime YearOfProduction;
-        [XmlAttribute]
+        [XmlElement(Order = 10)]
         public bool isAvailable { get; set; }
 
         public Car() { }

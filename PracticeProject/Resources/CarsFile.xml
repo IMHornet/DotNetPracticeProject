@@ -1,13 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Cars xmlns="http://www.develop.com/car">
-	<Car YearOfProduction="2016-08-22T16:02:00" Model="KIA" Type="OffRoad" Engine="Benzine" Id="1c8fd5c2-a27c-42db-892e-61bfdd4db4e6" Name="Sportage" Power="150" MaxSpeed="200" Milage="10000" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2016-03-23T13:41:00" Model="BMW" Type="OffRoad" Engine="Electrolytic" Id="ca61e143-749c-4ef3-aa05-1e3e178eae7c" Name="X6" Power="150" MaxSpeed="170" Milage="30000" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2015-12-03T18:29:00" Model="KIA" Type="Hatchback" Engine="Electrolytic" Id="7e74acea-85f2-4edc-8844-a72aa71ab5f9" Name="Ceed" Power="190" MaxSpeed="210" Milage="15000" isAvailable="true" xmlns="" />
-	<Car YearOfProduction="2019-03-28T07:24:00" Model="Honda" Type="Sedan" Engine="Benzine" Id="d90b4550-5cf8-4f9d-a5b2-f68094b24276" Name="Prelude" Power="140" MaxSpeed="190" Milage="100" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2020-09-17T14:03:00" Model="Toyota" Type="Hatchback" Engine="Electrolytic" Id="e1b59d98-7f01-43a9-b39f-7359fe5b817f" Name="Avensis" Power="190" MaxSpeed="190" Milage="30000" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2016-09-10T04:40:00" Model="KIA" Type="OffRoad" Engine="Benzine" Id="fad7a2f2-763a-44fb-896f-879af2d550dd" Name="Sportage" Power="100" MaxSpeed="210" Milage="10000" isAvailable="true" xmlns="" />
-	<Car YearOfProduction="2017-01-12T13:13:00" Model="Opel" Type="Hatchback" Engine="Electrolytic" Id="b2878861-f5d4-4a9d-afbf-3d991f38988d" Name="Astra G" Power="120" MaxSpeed="190" Milage="100" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2016-10-18T13:02:00" Model="Opel" Type="Hatchback" Engine="Electrolytic" Id="d851ce47-f13d-404e-93e1-2f3513d24b40" Name="Vectra C" Power="120" MaxSpeed="170" Milage="10000" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2016-10-29T16:34:00" Model="Honda" Type="OffRoad" Engine="Hybrid" Id="e83d873f-f64d-435f-a30f-2a842d26ffce" Name="Prelude" Power="140" MaxSpeed="180" Milage="15000" isAvailable="false" xmlns="" />
-	<Car YearOfProduction="2017-10-19T04:40:00" Model="Honda" Type="OffRoad" Engine="Electrolytic" Id="70368dab-4d36-4b3c-af53-fd2079a31e19" Name="Civic" Power="150" MaxSpeed="180" Milage="100" isAvailable="false" xmlns="" />
+	<Car xmlns="">
+		<Id>41797d8f-8b92-4806-bc74-b8dcced9ef12</Id>
+		<Model>Toyota</Model>
+		<Type>Hatchback</Type>
+		<Engine>Hybrid</Engine>
+		<Name>Camry</Name>
+		<Power>140</Power>
+		<MaxSpeed>190</MaxSpeed>
+		<Milage>15000</Milage>
+		<YearOfProduction>2019-07-24T08:14:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>607f64d5-ca4e-45dc-9361-25e5ad84a0ef</Id>
+		<Model>Mercedes</Model>
+		<Type>OffRoad</Type>
+		<Engine>Electrolytic</Engine>
+		<Name>GLE</Name>
+		<Power>160</Power>
+		<MaxSpeed>210</MaxSpeed>
+		<Milage>100</Milage>
+		<YearOfProduction>2019-03-03T17:04:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>c60fd201-d903-4658-b1b2-2dee6d53b0e3</Id>
+		<Model>Honda</Model>
+		<Type>OffRoad</Type>
+		<Engine>Hybrid</Engine>
+		<Name>Accord</Name>
+		<Power>140</Power>
+		<MaxSpeed>210</MaxSpeed>
+		<Milage>30000</Milage>
+		<YearOfProduction>2020-11-17T02:16:00</YearOfProduction>
+		<isAvailable>true</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>c5cc920e-7d33-44aa-85b2-38bb8f4a38c0</Id>
+		<Model>KIA</Model>
+		<Type>OffRoad</Type>
+		<Engine>Electrolytic</Engine>
+		<Name>Sorento</Name>
+		<Power>130</Power>
+		<MaxSpeed>180</MaxSpeed>
+		<Milage>10000</Milage>
+		<YearOfProduction>2015-02-26T11:45:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>d9136447-add5-4f5c-bd31-480b39a58030</Id>
+		<Model>BMW</Model>
+		<Type>Coupe</Type>
+		<Engine>Hybrid</Engine>
+		<Name>X1</Name>
+		<Power>140</Power>
+		<MaxSpeed>210</MaxSpeed>
+		<Milage>15000</Milage>
+		<YearOfProduction>2018-12-29T07:17:00</YearOfProduction>
+		<isAvailable>true</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>b29aca56-8e38-4c64-899a-8553bf033495</Id>
+		<Model>KIA</Model>
+		<Type>Hatchback</Type>
+		<Engine>Benzine</Engine>
+		<Name>Sportage</Name>
+		<Power>150</Power>
+		<MaxSpeed>170</MaxSpeed>
+		<Milage>15000</Milage>
+		<YearOfProduction>2020-11-06T03:36:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>04a53767-433b-43c1-b3b5-b6f10a14b521</Id>
+		<Model>Opel</Model>
+		<Type>OffRoad</Type>
+		<Engine>Hybrid</Engine>
+		<Name>Vectra C</Name>
+		<Power>120</Power>
+		<MaxSpeed>190</MaxSpeed>
+		<Milage>10000</Milage>
+		<YearOfProduction>2015-02-26T03:35:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>7e74719a-2cff-441b-b018-4c36036c76a0</Id>
+		<Model>Toyota</Model>
+		<Type>Hatchback</Type>
+		<Engine>Electrolytic</Engine>
+		<Name>Avensis</Name>
+		<Power>160</Power>
+		<MaxSpeed>190</MaxSpeed>
+		<Milage>10000</Milage>
+		<YearOfProduction>2017-04-12T18:09:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>55667d1c-ce30-487b-8157-6e6343a1a0d1</Id>
+		<Model>KIA</Model>
+		<Type>OffRoad</Type>
+		<Engine>Benzine</Engine>
+		<Name>Ceed</Name>
+		<Power>120</Power>
+		<MaxSpeed>200</MaxSpeed>
+		<Milage>10000</Milage>
+		<YearOfProduction>2017-01-25T13:59:00</YearOfProduction>
+		<isAvailable>true</isAvailable>
+	</Car>
+	<Car xmlns="">
+		<Id>83c202d8-cb36-42a8-8419-a9ab31818277</Id>
+		<Model>Toyota</Model>
+		<Type>Coupe</Type>
+		<Engine>Benzine</Engine>
+		<Name>Camry</Name>
+		<Power>150</Power>
+		<MaxSpeed>200</MaxSpeed>
+		<Milage>30000</Milage>
+		<YearOfProduction>2020-12-01T23:59:00</YearOfProduction>
+		<isAvailable>false</isAvailable>
+	</Car>
 </Cars>

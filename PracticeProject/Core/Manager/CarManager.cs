@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace PracticeProject.Core.Manager
 {
@@ -14,33 +16,44 @@ namespace PracticeProject.Core.Manager
         private List<Car> Cars;
         private StreamReader sr;
         private StreamWriter sw;
-        private string  Path = ConfigurationManager.AppSettings["Path"];
+        private XmlSerializer deserializer;
+        private string Path = ConfigurationManager.AppSettings["Path"];
 
-        public CarManager() {
+        public CarManager()
+        {
             Cars = new List<Car>();
         }
 
-        public List<Car> GetCarCollection() {
+        public List<Car> GetCarCollection()
+        {
             return Cars;
         }
 
-        public void AddCar(Car car) {
-            try {
-                using (sw = new StreamWriter(Path, true)) {
+        public void AddCar(Car car)
+        {
+            try
+            {
+                using (sw = new StreamWriter(Path, true))
+                {
                     sw.WriteLine(car);
                 }
-            } catch (IOException ex) {
+            }
+            catch (IOException ex)
+            {
                 throw ex;
             }
         }
 
-        public List<Car> GetCarsFromFile() {
-           
+        public List<Car> GetCarsFromFile()
+        {
+
             string line = string.Empty;
             Car car = null;
             Cars.Clear();
-            try {
-                using (sr = new StreamReader(Path)) {
+            try
+            {
+                using (sr = new StreamReader(Path))
+                {
 
                     while ((line = sr.ReadLine()) != null)
                     {
@@ -51,10 +64,12 @@ namespace PracticeProject.Core.Manager
                         }
                     }
                 }
-            } catch (IOException ex) {
+            }
+            catch (IOException ex)
+            {
                 throw ex;
             }
-                         return Cars;
+            return Cars;
         }
 
         public Car CarParseFromLine(string line)
@@ -65,7 +80,7 @@ namespace PracticeProject.Core.Manager
 
             if (entries.Length < Constants.Constants.entries)
             {
-                    return null;
+                return null;
             }
 
             car = new Car()
@@ -101,10 +116,11 @@ namespace PracticeProject.Core.Manager
                         }
                     }
                 }
-            } catch (IOException ex)
-                {
-                    throw ex;
-                }
+            }
+            catch (IOException ex)
+            {
+                throw ex;
+            }
             return car;
         }
 
@@ -122,7 +138,7 @@ namespace PracticeProject.Core.Manager
                         {
                             car = CarParseFromLine(line);
                             Cars.Add(car);
-                            
+
                         }
                     }
                 }
@@ -135,7 +151,8 @@ namespace PracticeProject.Core.Manager
         }
 
         // search with object SearchFilter -> engine , year range  from to 
-        public List<Car> FindCarByParams(SearchFilter filter) {
+        public List<Car> FindCarByParams(SearchFilter filter)
+        {
 
             string line = string.Empty;
             Car car = null;
@@ -146,10 +163,10 @@ namespace PracticeProject.Core.Manager
                 {
                     while ((line = sr.ReadLine()) != null)
                     {
-                        if (line.Contains(filter.Model)&& 
-                            line.Contains(filter.Year)&&
-                            line.Contains(filter.Engine)&&
-                            CarDateRange(line,filter.dateFrom,filter.dateTo))
+                        if (line.Contains(filter.Model) &&
+                            line.Contains(filter.Year) &&
+                            line.Contains(filter.Engine) &&
+                            CarDateRange(line, filter.dateFrom, filter.dateTo))
                         {
                             car = CarParseFromLine(line);
                             if (car != null)
@@ -180,18 +197,19 @@ namespace PracticeProject.Core.Manager
                         {
                             sw.WriteLine(eCar);
                         }
-                          else
-                          {
+                        else
+                        {
                             sw.WriteLine(car);
-                          }
+                        }
                     }
                 }
                 return true;
 
-            } catch (IOException ex)
-                {
-                    throw ex;
-                }
+            }
+            catch (IOException ex)
+            {
+                throw ex;
+            }
         }
 
         public bool DeleteCarFromFile(Car car)
@@ -209,14 +227,16 @@ namespace PracticeProject.Core.Manager
                     }
                 }
                 return true;
-            } catch (IOException ex)
-              {
+            }
+            catch (IOException ex)
+            {
                 throw ex;
-              }
+            }
         }
 
-        public bool CarDateRange(string carLine, DateTime? dateFrom, DateTime? dateTo) {
-           
+        public bool CarDateRange(string carLine, DateTime? dateFrom, DateTime? dateTo)
+        {
+
             var dateCar = string.Empty;
             var carDate = DateTime.Now;
             var regEx = new Regex(Constants.Constants.regExDatePattern);
@@ -232,6 +252,17 @@ namespace PracticeProject.Core.Manager
         public string GetPath()
         {
             return Path;
+        }
+
+        public void Deserialize()
+        {
+
+            deserializer = new XmlSerializer(typeof(Car));
+            using (FileStream fs = new FileStream(@"D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\Resources\CarsFile.xml", FileMode.OpenOrCreate))
+            {
+                Cars.Add((Car)deserializer.Deserialize(fs));
+                fs.Close();
+            }
         }
     }
 }

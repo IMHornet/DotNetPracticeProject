@@ -11,6 +11,7 @@
     <AssemblyName>PracticeProject</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,8 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Constants\Constants.cs" />
+    <Compile Include="Core\Data\CsvStreamWriter.cs" />
+    <Compile Include="Core\Data\XmlStreamReader.cs" />
+    <Compile Include="Core\Data\XmlStreamWriter.cs" />
     <Compile Include="Core\Interfaces\ICar.cs" />
     <Compile Include="Core\Interfaces\ICarManager.cs" />
+    <Compile Include="Core\Manager\CarXmlManager.cs" />
     <Compile Include="Core\Model\Car.cs" />
     <Compile Include="Core\Manager\CarManager.cs" />
     <Compile Include="Core\Enums\CarsModel.cs" />

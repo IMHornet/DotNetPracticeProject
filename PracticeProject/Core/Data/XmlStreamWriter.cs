@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace DataGenerator
+namespace PracticeProject.Core.Data
 {
     public class XmlStreamWriter : IDisposable
     {
         private string xmlNameSpace;
         protected XmlWriter xmlWriter;
 
-        public void Begin(Stream xmlStream,string rootElementName,string xmlNameSpace,Dictionary<string,string> attributes)
-        {
+       public void Begin(Stream xmlStream,string rootElementName,string xmlNameSpace,Dictionary<string,string> attributes)
+       {
             this.xmlNameSpace = xmlNameSpace;
             var writerSettings = new XmlWriterSettings { Indent = true, IndentChars = "\t" };
             xmlWriter = XmlWriter.Create(xmlStream, writerSettings);
@@ -24,7 +24,7 @@ namespace DataGenerator
 
             foreach (var attribute in attributes)
             {
-                xmlWriter.WriteAttributeString(attribute.Key,attribute.Value);
+                xmlWriter.WriteAttributeString(attribute.Key, attribute.Value);
             }
 
         }
@@ -48,7 +48,6 @@ namespace DataGenerator
         {
             var xmlSerializerNamespaces = new XmlSerializerNamespaces();
             xmlSerializerNamespaces.Add(string.Empty, string.Empty);
-
             var xmlSerializer = new XmlSerializer(carElement.GetType());
             xmlSerializer.Serialize(xmlWriter, carElement, xmlSerializerNamespaces);
         }
