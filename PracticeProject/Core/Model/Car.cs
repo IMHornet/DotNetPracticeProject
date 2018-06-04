@@ -10,25 +10,25 @@ namespace PracticeProject.Core.Model
     {
         public const string XmlNameElement = "Car";
 
-        [XmlElement(Order = 2)]
-        public CarsModel Model { get; set; }
-        [XmlElement(Order = 3)]
-        public CarsType Type { get; set; }
-        [XmlElement(Order = 4)]
-        public CarsEngine Engine { get; set; }
-        [XmlElement(Order = 1)]
+        [XmlAttribute]
         public Guid Id { get; set; }
-        [XmlElement(Order = 5)]
+        [XmlAttribute]
+        public CarsModel Model { get; set; }
+        [XmlAttribute]
         public string Name { get; set; }
-        [XmlElement(Order = 6)]
+        [XmlAttribute]
+        public CarsType Type { get; set; }
+        [XmlAttribute]
+        public CarsEngine Engine { get; set; }  
+        [XmlAttribute]
         public int Power { get; set; }
-        [XmlElement(Order = 7)]
+        [XmlAttribute]
         public int  MaxSpeed { get; set; }
-        [XmlElement(Order = 8)]
+        [XmlAttribute]
         public double Milage { get; set; }
-        [XmlElement(Order = 9)]
-        public DateTime YearOfProduction;
-        [XmlElement(Order = 10)]
+        [XmlAttribute]
+        public DateTime YearOfProduction { get; set; }
+        [XmlAttribute]
         public bool isAvailable { get; set; }
 
         public Car() { }
@@ -51,13 +51,14 @@ namespace PracticeProject.Core.Model
         public override string ToString()
         {
             return string.Format(Resource.ToStringFormat, Constants.Constants.delimetr, Id,
-                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
+                                 Model, Name, Type, Engine, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
+
         }
 
         public  string ConsoleView()
         {
             return string.Format(Resource.ConsoleFormat," ",
-                                 Model, Type, Engine, Name, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
+                                 Model, Name, Type, Engine, Power, MaxSpeed, Milage, YearOfProduction.ToString("dd.MM.yyyy"), isAvailable);
         }
 
         public double Drive(double timeInHour, int speed)

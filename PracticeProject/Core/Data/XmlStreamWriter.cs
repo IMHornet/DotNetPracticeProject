@@ -2,9 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -16,12 +13,12 @@ namespace PracticeProject.Core.Data
         protected XmlWriter xmlWriter;
 
        public void Begin(Stream xmlStream,string rootElementName,string xmlNameSpace,Dictionary<string,string> attributes)
-       {
+        {
             this.xmlNameSpace = xmlNameSpace;
             var writerSettings = new XmlWriterSettings { Indent = true, IndentChars = "\t" };
             xmlWriter = XmlWriter.Create(xmlStream, writerSettings);
-            xmlWriter.WriteStartElement(rootElementName,xmlNameSpace);
-
+            xmlWriter.WriteStartElement(rootElementName, xmlNameSpace);
+          
             foreach (var attribute in attributes)
             {
                 xmlWriter.WriteAttributeString(attribute.Key, attribute.Value);
@@ -50,6 +47,7 @@ namespace PracticeProject.Core.Data
             xmlSerializerNamespaces.Add(string.Empty, string.Empty);
             var xmlSerializer = new XmlSerializer(carElement.GetType());
             xmlSerializer.Serialize(xmlWriter, carElement, xmlSerializerNamespaces);
+            
         }
 
         public void Dispose()

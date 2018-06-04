@@ -6,10 +6,11 @@ D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\PracticeProject\obj\Debu
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\PracticeProject\obj\Debug\PracticeProject.dll
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\PracticeProject\obj\Debug\PracticeProject.pdb
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\PracticeProject\obj\Debug\PracticeProject.csprojResolveAssemblyReference.cache
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\bin\Debug\Core\Data\Data.xsd
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\bin\Debug\PracticeProject.dll
+D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\bin\Debug\PracticeProject.pdb
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\obj\Debug\PracticeProject.Core.Resource.resources
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\obj\Debug\PracticeProject.csproj.GenerateResource.cache
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\obj\Debug\PracticeProject.csproj.CoreCompileInputs.cache
-D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\bin\Debug\PracticeProject.dll
-D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\bin\Debug\PracticeProject.pdb
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\obj\Debug\PracticeProject.dll
 D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\obj\Debug\PracticeProject.pdb
