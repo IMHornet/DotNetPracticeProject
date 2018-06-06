@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Car">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="Id" use="required"/>
+          <xs:attribute type="xs:string" name="Model" use="required"/>
+          <xs:attribute type="xs:string" name="Name" use="required"/>
+          <xs:attribute type="xs:string" name="Type" use="required"/>
+          <xs:attribute type="xs:string" name="Engine" use="required"/>
+          <xs:attribute type="xs:short" name="Power" use="required"/>
+          <xs:attribute type="xs:short" name="MaxSpeed" use="required"/>
+          <xs:attribute type="xs:short" name="Milage" use="required"/>
+          <xs:attribute type="xs:dateTime" name="YearOfProduction" use="required"/>
+          <xs:attribute type="xs:string" name="isAvailable" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
