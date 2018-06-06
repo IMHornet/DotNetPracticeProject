@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace PracticeProject.Core.Data
 {
-    class XmlStreamReader:IDisposable
+    public class XmlStreamReader:IDisposable
     {
         private XmlReader xmlReader;
         public const string xsdFileName = "Data.xsd";

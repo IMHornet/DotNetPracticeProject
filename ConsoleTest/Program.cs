@@ -1,11 +1,11 @@
 ﻿using DataGenerator;
 using PracticeProject.Core.Data;
+using PracticeProject.Core.Enums;
 using PracticeProject.Core.Manager;
 using PracticeProject.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml.Serialization;
 
 namespace ConsoleTest
 {
@@ -14,23 +14,41 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            CarXmlManager xmlCarManager = new CarXmlManager(@"D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\Resources\CarsFile.xml");
-
-            SearchFilter filter = new SearchFilter
+            CarXmlManager xmlCarManager = new CarXmlManager();
+            Car car = new Car()
             {
-                Model = "Honda",
-                Engine = string.Empty,
-                Year = string.Empty,
-                dateFrom = new DateTime(2016, 01, 01)
+                Id = Guid.NewGuid(),
+                Model = CarsModel.Toyota,
+                Type = CarsType.Sedan,
+                Engine = CarsEngine.Benzine,
+                Name = "Avensis",
+                Power = 150,
+                MaxSpeed = 220,
+                Milage = 5600,
+                YearOfProduction = new DateTime(2018, 02, 20),
+                isAvailable = true
             };
 
-            Console.WriteLine(xmlCarManager.GetCars(filter).Count);
+            xmlCarManager.AddCar(car);
 
-            foreach (Car car in xmlCarManager.GetCars(filter))
+            foreach (Car carr in xmlCarManager.GetCars())
             {
-                Console.WriteLine(car.ConsoleView());
-
+                Console.WriteLine(carr.ConsoleView());
             }
+
+            //SearchFilter filter = new SearchFilter
+            //{
+            //    Model = "Honda",
+            //    Engine = string.Empty,
+            //    Year = string.Empty,
+            //    dateFrom = new DateTime(2016, 01, 01)
+            //};
+
+            //foreach (Car car in xmlCarManager.GetCars())
+            //{
+            //    Console.WriteLine(car.ConsoleView());
+
+            //}
 
             //Generator generator = new Generator();
             //using (Stream fileStream = new System.IO.FileStream(@"D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\Resources\CarsFile.xml", FileMode.Create))

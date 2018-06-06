@@ -16,7 +16,6 @@ namespace PracticeProject.Core.Manager
         private List<Car> Cars;
         private StreamReader sr;
         private StreamWriter sw;
-        private XmlSerializer deserializer;
         private string Path = ConfigurationManager.AppSettings["Path"];
 
         public CarManager()
@@ -254,15 +253,5 @@ namespace PracticeProject.Core.Manager
             return Path;
         }
 
-        public void Deserialize()
-        {
-
-            deserializer = new XmlSerializer(typeof(Car));
-            using (FileStream fs = new FileStream(@"D:\MyProgrammingRepository\C#REPOSITORY\PracticeProject\DotNetPracticeProject\PracticeProject\Resources\CarsFile.xml", FileMode.OpenOrCreate))
-            {
-                Cars.Add((Car)deserializer.Deserialize(fs));
-                fs.Close();
-            }
-        }
     }
 }

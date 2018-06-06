@@ -30,8 +30,16 @@ namespace PracticeProject.Core.Model
         public DateTime YearOfProduction { get; set; }
         [XmlAttribute]
         public bool isAvailable { get; set; }
+        [XmlNamespaceDeclarationsAttribute]
+        public XmlSerializerNamespaces xmlns { get; set; }
 
-        public Car() { }
+        public Car() {
+
+            var xmlSerializerNamespaces = new XmlSerializerNamespaces();
+            xmlSerializerNamespaces.Add(string.Empty, string.Empty);
+            this.xmlns = xmlSerializerNamespaces;
+
+        }
 
         public Car(CarsModel model,CarsType type,CarsEngine engine, string name,
                    int power,int maxSpeed,double milage,DateTime year,bool available)
