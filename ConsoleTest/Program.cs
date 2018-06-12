@@ -14,27 +14,42 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
+
             CarXmlManager xmlCarManager = new CarXmlManager();
-            Car car = new Car()
-            {
-                Id = Guid.NewGuid(),
-                Model = CarsModel.Toyota,
-                Type = CarsType.Sedan,
-                Engine = CarsEngine.Benzine,
-                Name = "Avensis",
-                Power = 150,
-                MaxSpeed = 220,
-                Milage = 5600,
-                YearOfProduction = new DateTime(2018, 02, 20),
-                isAvailable = true
-            };
+            //Console.WriteLine(xmlCarManager.GetCars().Count);
+            Car car = xmlCarManager.FindCarById("abd4deaf-3212-4d98-bc8f-e1ec1e9443fa");
+            car.Name = "X7";
+            xmlCarManager.UpdateCar(car);
+            ////Console.WriteLine(car.ConsoleView());
+            //xmlCarManager.DeleteCar(car);
+            //Console.WriteLine(xmlCarManager.GetCars().Count);
+            ////Console.WriteLine(car.ConsoleView());
 
-            xmlCarManager.AddCar(car);
 
-            foreach (Car carr in xmlCarManager.GetCars())
-            {
-                Console.WriteLine(carr.ConsoleView());
-            }
+            //Car car = xmlCarManager.FindCarById("a8bc7152-9ae5-4c4a-8fe8-f9e30f06647e");
+            //Console.WriteLine(car.ConsoleView());
+
+            //Console.WriteLine(xmlCarManager.GetCars().Count);
+            //Car car = new Car()
+            //{
+            //    Id = Guid.NewGuid(),
+            //    Model = CarsModel.Toyota,
+            //    Type = CarsType.Hatchback,
+            //    Engine = CarsEngine.Benzine,
+            //    Name = "Land cruzer",
+            //    Power = 112,
+            //    MaxSpeed = 220,
+            //    Milage = 10000,
+            //    YearOfProduction = new DateTime(2010,03, 20),
+            //    isAvailable = true
+            //};
+
+            //xmlCarManager.AddCar(car);
+
+            //foreach (Car carr in xmlCarManager.GetCars())
+            //{
+            //    Console.WriteLine(carr.ConsoleView());
+            //}
 
             //SearchFilter filter = new SearchFilter
             //{

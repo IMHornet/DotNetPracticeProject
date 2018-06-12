@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Cars xmlns="http://www.develop.com/car">
-	<Car xmlns="" Id="90b68a14-ee48-4a5e-acac-4a7c2d506e4b" Model="KIA" Name="Sportage" Type="Sedan" Engine="Electrolytic" Power="140" MaxSpeed="180" Milage="100" YearOfProduction="2019-08-13T20:58:00" isAvailable="false" />
-	<Car xmlns="" Id="2df2b1ff-a341-4f0a-9838-b61f16cae173" Model="Honda" Name="Prelude" Type="Coupe" Engine="Electrolytic" Power="180" MaxSpeed="170" Milage="30000" YearOfProduction="2018-06-15T07:49:00" isAvailable="false" />
-	<Car xmlns="" Id="37b1e154-0719-4869-b8e7-bb22364d332f" Model="BMW" Name="X1" Type="Hatchback" Engine="Electrolytic" Power="140" MaxSpeed="170" Milage="30000" YearOfProduction="2016-06-12T19:40:00" isAvailable="true" />
-	<Car xmlns="" Id="4bf5bfd6-a89d-4cc6-90b0-beb21405f497" Model="KIA" Name="Sportage" Type="Hatchback" Engine="Hybrid" Power="140" MaxSpeed="210" Milage="15000" YearOfProduction="2019-11-07T11:20:00" isAvailable="false" />
-	<Car xmlns="" Id="1daecc66-6a97-4247-b1cd-45797843d881" Model="KIA" Name="Sorento" Type="Sedan" Engine="Electrolytic" Power="170" MaxSpeed="190" Milage="15000" YearOfProduction="2020-10-13T18:44:00" isAvailable="false" />
-	<Car xmlns="" Id="26e967f1-3f86-46b7-825d-3a2c4d496a12" Model="BMW" Name="X6" Type="OffRoad" Engine="Electrolytic" Power="200" MaxSpeed="210" Milage="10000" YearOfProduction="2020-10-30T11:01:00" isAvailable="false" />
-	<Car xmlns="" Id="ab47d924-c126-4cab-8cdd-b4dd81500ed0" Model="Mercedes" Name="S Class" Type="OffRoad" Engine="Electrolytic" Power="200" MaxSpeed="200" Milage="30000" YearOfProduction="2017-09-04T15:30:00" isAvailable="false" />
-	<Car xmlns="" Id="3ca1a53a-cb0b-48c6-8d4d-335b066cadcb" Model="Honda" Name="Accord" Type="Hatchback" Engine="Electrolytic" Power="100" MaxSpeed="190" Milage="10000" YearOfProduction="2016-11-15T16:36:00" isAvailable="false" />
-	<Car xmlns="" Id="187716b4-1a22-46c6-acdd-ac60bbff26be" Model="Toyota" Name="Avensis" Type="Sedan" Engine="Benzine" Power="150" MaxSpeed="220" Milage="5600" YearOfProduction="2018-02-20T00:00:00" isAvailable="true" />
+	<Car xmlns="" Id="58ab9e3e-c9ee-43e0-99a4-72d7fefa80ef" Model="Opel" Name="Vectra C" Type="Coupe" Engine="Benzine" Power="140" MaxSpeed="210" Milage="10000" YearOfProduction="2018-09-07T06:54:00" isAvailable="false" />
+	<Car xmlns="" Id="1e2decf2-ca56-4b1b-b308-6ca7f79da5ea" Model="Mercedes" Name="ML 350" Type="OffRoad" Engine="Benzine" Power="100" MaxSpeed="180" Milage="15000" YearOfProduction="2016-12-26T08:14:00" isAvailable="false" />
+	<Car xmlns="" Id="3e070b05-29a1-475e-8be7-ffcac9c462a8" Model="Honda" Name="Prelude" Type="Hatchback" Engine="Hybrid" Power="170" MaxSpeed="170" Milage="30000" YearOfProduction="2017-01-17T18:21:00" isAvailable="true" />
+	<Car xmlns="" Id="abd4deaf-3212-4d98-bc8f-e1ec1e9443fa" Model="Mercedes" Name="GLE" Type="Coupe" Engine="Electrolytic" Power="150" MaxSpeed="190" Milage="30000" YearOfProduction="2016-06-05T18:29:00" isAvailable="true" />
+	<Car xmlns="" Id="ff152f24-930d-4fa5-8665-f0aece58794d" Model="BMW" Name="X6" Type="Sedan" Engine="Benzine" Power="120" MaxSpeed="200" Milage="10000" YearOfProduction="2020-01-22T23:53:00" isAvailable="false" />
+	<Car xmlns="" Id="044de2a5-bb02-48a7-8fb4-bd85864a8c54" Model="KIA" Name="Sportage" Type="Hatchback" Engine="Benzine" Power="120" MaxSpeed="190" Milage="15000" YearOfProduction="2015-09-28T19:27:00" isAvailable="false" />
+	<Car xmlns="" Id="b520227e-2c3a-49c5-869e-f9e02bbf6592" Model="KIA" Name="Ceed" Type="Sedan" Engine="Hybrid" Power="190" MaxSpeed="190" Milage="15000" YearOfProduction="2019-07-19T20:01:00" isAvailable="false" />
+	<Car xmlns="" Id="c7aebfd3-4b13-40ac-a88e-8d83bc95451f" Model="BMW" Name="X1" Type="Coupe" Engine="Hybrid" Power="160" MaxSpeed="210" Milage="10000" YearOfProduction="2017-01-30T03:58:00" isAvailable="true" />
+	<Car xmlns="" Id="ac02dbf7-7b4c-427d-95da-de3f0102277d" Model="BMW" Name="X5" Type="Coupe" Engine="Benzine" Power="150" MaxSpeed="170" Milage="10000" YearOfProduction="2017-01-31T20:17:00" isAvailable="false" />
 </Cars>
