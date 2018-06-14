@@ -1,4 +1,5 @@
 ﻿using DataGenerator;
+using DelegateExamples;
 using PracticeProject.Core.Data;
 using PracticeProject.Core.Enums;
 using PracticeProject.Core.Manager;
@@ -36,9 +37,12 @@ namespace ConsoleTest
             return x *y;
         }
 
+        public delegate void Action<T>(double t);
+
+        public delegate double TempConvert(double t);
+
         static void Main(string[] args)
         {
-
 
             Operation add = new Operation(Add);
             double resultAdd = add.Invoke(2, 2);
@@ -47,6 +51,22 @@ namespace ConsoleTest
             Operation div = new Operation(Div);
             double resultDiv = div.Invoke(2, 2);
             Console.WriteLine(resultDiv);
+
+            // Action delegate 
+            TemperatureConvertor convertor = new TemperatureConvertor();
+            Action<TemperatureConvertor> tempConvertor = new Action<TemperatureConvertor>(convertor.ConvertToC);
+            tempConvertor.Invoke(100);
+
+            // delegate with lambda
+            TempConvert tempConvertorLambdToC = (x) => convertor.LambdaConvertToC(x); //(x - 32) * 5 / 9;
+            double lam = tempConvertorLambdToC(100);
+            Console.WriteLine(lam);
+
+            TempConvert tempConvertorLambdToF = (x) => (x * 9 / 5) + 32;
+            double lam2 = tempConvertorLambdToF(100);
+            Console.WriteLine(lam2);
+
+            //Console.WriteLine(res);
 
             //CarXmlManager xmlCarManager = new CarXmlManager();
             //Console.WriteLine(xmlCarManager.GetCars().Count);
